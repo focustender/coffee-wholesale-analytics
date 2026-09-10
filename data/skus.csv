@@ -1,0 +1,17 @@
+sku_id,roast_type,origin,package_type,bag_size_g,unit_price
+REGULAR-COLOMBIA-RETAIL,regular,Colombia,retail,220,14.0
+REGULAR-COLOMBIA-WHOLESALE,regular,Colombia,wholesale,2200,84.0
+REGULAR-PERU-RETAIL,regular,Peru,retail,220,14.0
+REGULAR-PERU-WHOLESALE,regular,Peru,wholesale,2200,84.0
+REGULAR-GUATEMALA-RETAIL,regular,Guatemala,retail,220,14.0
+REGULAR-GUATEMALA-WHOLESALE,regular,Guatemala,wholesale,2200,84.0
+REGULAR-BLEND-RETAIL,regular,Blend,retail,220,14.0
+REGULAR-BLEND-WHOLESALE,regular,Blend,wholesale,2200,84.0
+DECAF-COLOMBIA-RETAIL,decaf,Colombia,retail,220,15.5
+DECAF-COLOMBIA-WHOLESALE,decaf,Colombia,wholesale,2200,93.0
+DECAF-PERU-RETAIL,decaf,Peru,retail,220,15.5
+DECAF-PERU-WHOLESALE,decaf,Peru,wholesale,2200,93.0
+DECAF-GUATEMALA-RETAIL,decaf,Guatemala,retail,220,15.5
+DECAF-GUATEMALA-WHOLESALE,decaf,Guatemala,wholesale,2200,93.0
+DECAF-BLEND-RETAIL,decaf,Blend,retail,220,15.5
+DECAF-BLEND-WHOLESALE,decaf,Blend,wholesale,2200,93.0

@@ -1,0 +1,501 @@
+customer_id,company_name,business_type,contact_first_name,contact_last_name,email,acquisition_channel,region,signup_date,first_order_date,lifecycle_stage,total_orders,lifetime_value,last_order_date,avg_order_value,email_opt_in
+WCUST-00001,Bramble Eatery,restaurant,Fatima,Patel,wcust-00001@example.com,direct_relationship,"Austin, TX",2026-06-29,2026-07-13,New Account,3,955.0,2026-09-04,318.33,1
+WCUST-00002,Driftwood Roasters,cafe,Yuki,Harris,wcust-00002@example.com,inbound_web,"New York, NY",2026-04-04,2026-04-27,Active Account,7,3184.0,2026-08-22,454.86,1
+WCUST-00003,Cedar Bistro,restaurant,David,Nguyen,wcust-00003@example.com,trade_show,"Los Angeles, CA",2026-06-27,2026-07-14,New Account,2,672.0,2026-08-07,336.0,1
+WCUST-00004,Ember Grill,restaurant,Richard,Chen,wcust-00004@example.com,referral,"Bay Area, CA",2026-03-14,2026-03-29,Active Account,6,1959.0,2026-08-23,326.5,1
+WCUST-00005,Cedar Suites,hotel,David,Thomas,wcust-00005@example.com,trade_show,"Seattle, WA",2026-02-20,2026-03-12,Active Account,6,2702.0,2026-08-31,450.33,1
+WCUST-00006,Horizon Suites,hotel,Karen,Anderson,wcust-00006@example.com,trade_show,"Austin, TX",2025-10-14,2025-10-17,Active Account,11,6885.0,2026-08-26,625.91,1
+WCUST-00007,Foundry Espresso Bar,cafe,Jessica,Chen,wcust-00007@example.com,distributor_partner,"Portland, OR",2025-10-22,2025-11-09,Active Account,15,8208.0,2026-09-05,547.2,0
+WCUST-00008,Meridian Roasters,cafe,Michael,Sanchez,wcust-00008@example.com,trade_show,"Los Angeles, CA",2026-02-11,2026-03-07,Active Account,10,4032.0,2026-09-01,403.2,1
+WCUST-00009,Foundry Table,restaurant,Daniel,Brown,wcust-00009@example.com,distributor_partner,"Bay Area, CA",2026-06-23,2026-07-09,New Account,1,186.0,2026-07-09,186.0,1
+WCUST-00010,Silver Creek Roasters,cafe,Elizabeth,Jackson,wcust-00010@example.com,distributor_partner,"Santa Barbara, CA",2025-10-09,2025-10-23,Active Account,16,7604.0,2026-09-06,475.25,1
+WCUST-00011,Ember Espresso Bar,cafe,Jennifer,Martinez,wcust-00011@example.com,inbound_web,"Los Angeles, CA",2024-08-19,2024-08-30,Established Account,34,15201.0,2026-09-08,447.09,1
+WCUST-00012,Bramble Training Studio,gym,Richard,Chen,wcust-00012@example.com,referral,"Seattle, WA",2025-07-30,2025-08-28,Established Account,8,1428.0,2026-08-20,178.5,1
+WCUST-00013,Maple Roasters,cafe,Diego,Chen,wcust-00013@example.com,trade_show,"Bay Area, CA",2025-07-22,2025-08-08,Established Account,20,8716.0,2026-08-28,435.8,1
+WCUST-00014,Bramble Coffee House,cafe,Karen,Chen,wcust-00014@example.com,direct_relationship,"Santa Barbara, CA",2026-05-24,2026-06-06,Active Account,4,1764.0,2026-08-05,441.0,1
+WCUST-00015,Wildflower Table,restaurant,Richard,Williams,wcust-00015@example.com,referral,"Portland, OR",2024-08-14,2024-08-27,Churned,10,3294.0,2025-04-22,329.4,0
+WCUST-00016,Ironwood Eatery,restaurant,Andrew,Chen,wcust-00016@example.com,inbound_web,"New York, NY",2024-10-23,2024-11-02,Established Account,20,5142.0,2026-04-01,257.1,1
+WCUST-00017,Vantage Grill,restaurant,Diego,Sanchez,wcust-00017@example.com,cold_outreach,"Los Angeles, CA",2025-03-04,2025-03-28,Established Account,20,6332.0,2026-09-06,316.6,1
+WCUST-00018,Silver Creek Inn,hotel,Andrew,Davis,wcust-00018@example.com,distributor_partner,"Los Angeles, CA",2025-11-20,2025-11-28,Active Account,8,4590.0,2026-08-03,573.75,1
+WCUST-00019,Maple Diner,restaurant,John,Chen,wcust-00019@example.com,trade_show,"Portland, OR",2025-11-10,2025-12-08,Active Account,10,2923.0,2026-09-02,292.3,1
+WCUST-00020,Lantern Eatery,restaurant,Carlos,Miller,wcust-00020@example.com,referral,"Santa Barbara, CA",2025-05-19,2025-06-15,Established Account,17,4452.0,2026-08-27,261.88,1
+WCUST-00021,Horizon Hotel,hotel,Maria,Moore,wcust-00021@example.com,distributor_partner,"Seattle, WA",2025-07-15,2025-08-06,Established Account,11,7349.0,2026-08-03,668.09,0
+WCUST-00022,Ironwood Roasters,cafe,Wei,Clark,wcust-00022@example.com,referral,"New York, NY",2024-11-03,2024-12-03,Established Account,31,14875.0,2026-08-28,479.84,1
+WCUST-00023,Northside Coffee Co.,cafe,Andrew,Wilson,wcust-00023@example.com,trade_show,"Seattle, WA",2024-09-20,2024-10-20,Established Account,33,15362.0,2026-08-26,465.52,1
+WCUST-00024,Harbor Training Studio,gym,Amara,Sanchez,wcust-00024@example.com,cold_outreach,"New York, NY",2026-01-22,2026-01-31,Active Account,4,672.0,2026-07-19,168.0,1
+WCUST-00025,Blue Ridge Roasters,cafe,Noah,Brown,wcust-00025@example.com,referral,"Portland, OR",2025-05-20,2025-06-11,At-Risk,9,4450.0,2025-12-03,494.44,1
+WCUST-00026,Cedar Espresso Bar,cafe,David,Jones,wcust-00026@example.com,referral,"Bay Area, CA",2025-08-27,2025-09-15,Active Account,17,7188.0,2026-08-30,422.82,1
+WCUST-00027,Ironwood Cafe,cafe,Susan,Moore,wcust-00027@example.com,distributor_partner,"Los Angeles, CA",2026-04-21,2026-04-22,Active Account,7,3135.0,2026-08-27,447.86,1
+WCUST-00028,Blue Ridge Inn,hotel,Maria,Johnson,wcust-00028@example.com,inbound_web,"Seattle, WA",2025-06-06,2025-06-20,Established Account,13,7686.0,2026-08-20,591.23,1
+WCUST-00029,Golden Hour Hotel,hotel,Richard,Patel,wcust-00029@example.com,referral,"New York, NY",2025-10-29,2025-11-05,Active Account,6,2954.0,2026-04-23,492.33,1
+WCUST-00030,Wildflower Eatery,restaurant,Elena,Martin,wcust-00030@example.com,inbound_web,"New York, NY",2025-10-21,2025-10-25,Active Account,12,3756.0,2026-08-27,313.0,1
+WCUST-00031,Wildflower Bistro,restaurant,Thomas,Jones,wcust-00031@example.com,trade_show,"Los Angeles, CA",2025-04-17,2025-04-30,Established Account,17,5198.5,2026-08-29,305.79,1
+WCUST-00032,Copper Roasters,cafe,Susan,Rodriguez,wcust-00032@example.com,cold_outreach,"Los Angeles, CA",2026-07-25,2026-08-07,New Account,2,616.0,2026-09-02,308.0,1
+WCUST-00033,Meridian Table,restaurant,Amara,Kim,wcust-00033@example.com,direct_relationship,"Bay Area, CA",2026-08-16,2026-08-16,New Account,1,420.0,2026-08-16,420.0,1
+WCUST-00034,Elm Street Bistro,restaurant,Robert,Thompson,wcust-00034@example.com,cold_outreach,"Santa Barbara, CA",2026-06-03,2026-06-09,Active Account,2,420.0,2026-07-13,210.0,1
+WCUST-00035,Foundry Coffee Co.,cafe,Sofia,Wilson,wcust-00035@example.com,referral,"Los Angeles, CA",2025-07-27,2025-08-19,Churned,2,924.0,2025-09-08,462.0,0
+WCUST-00036,Horizon Athletic Club,gym,Jessica,Martinez,wcust-00036@example.com,direct_relationship,"Bay Area, CA",2026-03-07,2026-04-04,Active Account,4,909.0,2026-09-01,227.25,1
+WCUST-00037,Sunset Grill,restaurant,Hiroshi,Sanchez,wcust-00037@example.com,inbound_web,"Los Angeles, CA",2026-03-31,2026-04-03,Active Account,6,1902.0,2026-08-22,317.0,1
+WCUST-00038,Vantage Athletic Club,gym,Jennifer,Jackson,wcust-00038@example.com,trade_show,"Santa Barbara, CA",2024-09-05,2024-09-17,Established Account,14,2324.5,2026-08-06,166.04,1
+WCUST-00039,Bramble Grill,restaurant,Wei,Perez,wcust-00039@example.com,direct_relationship,"Bay Area, CA",2025-06-22,,Lead,0,0.0,,,1
+WCUST-00040,Ember Cafe,cafe,Elena,Anderson,wcust-00040@example.com,cold_outreach,"Portland, OR",2024-10-04,2024-10-26,Established Account,33,15570.0,2026-09-01,471.82,1
+WCUST-00041,Vantage Lodge,hotel,Noah,Rodriguez,wcust-00041@example.com,inbound_web,"Bay Area, CA",2023-12-04,2023-12-18,Established Account,27,16956.5,2026-08-03,628.02,1
+WCUST-00042,Sunset Cafe,cafe,Fatima,Martin,wcust-00042@example.com,trade_show,"Los Angeles, CA",2024-02-03,2024-02-28,Established Account,45,20356.5,2026-09-06,452.37,1
+WCUST-00043,Wildflower Suites,hotel,Fatima,Moore,wcust-00043@example.com,inbound_web,"Bay Area, CA",2026-01-06,,Lead,0,0.0,,,1
+WCUST-00044,Silver Creek Fitness,gym,Michael,Thompson,wcust-00044@example.com,distributor_partner,"Los Angeles, CA",2026-03-14,2026-04-03,Active Account,4,687.5,2026-09-06,171.88,1
+WCUST-00045,Horizon Inn,hotel,Andrew,Nguyen,wcust-00045@example.com,referral,"Portland, OR",2025-05-05,2025-05-23,Established Account,14,8707.5,2026-08-25,621.96,1
+WCUST-00046,Silver Creek Roasters,cafe,David,Miller,wcust-00046@example.com,referral,"Bay Area, CA",2025-08-16,2025-09-10,Active Account,17,9128.0,2026-08-24,536.94,1
+WCUST-00047,Bramble Diner,restaurant,Thomas,Clark,wcust-00047@example.com,trade_show,"Los Angeles, CA",2025-02-17,2025-03-16,Established Account,20,6591.0,2026-08-23,329.55,1
+WCUST-00048,Copper Bistro,restaurant,Andrew,Miller,wcust-00048@example.com,inbound_web,"Seattle, WA",2025-02-25,2025-03-17,Established Account,20,5703.0,2026-08-29,285.15,1
+WCUST-00049,Vantage Eatery,restaurant,Carlos,Perez,wcust-00049@example.com,cold_outreach,"Santa Barbara, CA",2024-06-12,2024-06-20,Established Account,31,10235.5,2026-08-27,330.18,1
+WCUST-00050,Vantage Grill,restaurant,David,Smith,wcust-00050@example.com,inbound_web,"Seattle, WA",2024-10-12,2024-11-10,Established Account,24,8497.0,2026-09-02,354.04,1
+WCUST-00051,Elm Street Grill,restaurant,Patricia,Wilson,wcust-00051@example.com,referral,"Seattle, WA",2023-11-07,,Lead,0,0.0,,,1
+WCUST-00052,Maple Coffee House,cafe,Carlos,Sanchez,wcust-00052@example.com,direct_relationship,"Santa Barbara, CA",2026-09-06,,Lead,0,0.0,,,1
+WCUST-00053,Golden Hour Coffee House,cafe,Andrew,Brown,wcust-00053@example.com,referral,"Austin, TX",2025-09-11,2025-10-10,Active Account,16,7434.0,2026-08-31,464.62,1
+WCUST-00054,Meridian Coffee House,cafe,Linda,Lopez,wcust-00054@example.com,referral,"New York, NY",2025-11-21,,Lead,0,0.0,,,1
+WCUST-00055,Sunset Table,restaurant,Robert,Patel,wcust-00055@example.com,inbound_web,"Los Angeles, CA",2025-01-07,2025-01-16,Established Account,22,6613.0,2026-09-03,300.59,1
+WCUST-00056,Silver Creek Table,restaurant,Robert,Jackson,wcust-00056@example.com,distributor_partner,"Portland, OR",2026-01-26,2026-02-02,Active Account,9,2649.0,2026-08-30,294.33,1
+WCUST-00057,Cedar Coffee Co.,cafe,Elena,Johnson,wcust-00057@example.com,inbound_web,"Portland, OR",2025-01-10,2025-01-28,Established Account,28,13209.0,2026-08-27,471.75,1
+WCUST-00058,Maple Eatery,restaurant,Andrew,Hernandez,wcust-00058@example.com,referral,"Austin, TX",2026-01-06,2026-02-03,Active Account,8,2127.0,2026-08-31,265.88,1
+WCUST-00059,Blue Ridge Table,restaurant,Michael,Patel,wcust-00059@example.com,cold_outreach,"Bay Area, CA",2026-04-14,2026-05-14,Active Account,5,1766.0,2026-08-23,353.2,1
+WCUST-00060,Ember Inn,hotel,Patricia,Thomas,wcust-00060@example.com,inbound_web,"Seattle, WA",2024-07-17,2024-08-05,At-Risk,18,11246.5,2026-01-19,624.81,1
+WCUST-00061,Sunset Suites,hotel,Yuki,Patel,wcust-00061@example.com,distributor_partner,"Los Angeles, CA",2025-12-13,2025-12-20,Active Account,4,2100.0,2026-04-15,525.0,1
+WCUST-00062,Vantage Fitness,gym,Elizabeth,Martinez,wcust-00062@example.com,cold_outreach,"Seattle, WA",2025-05-29,2025-06-24,Established Account,9,1204.0,2026-09-08,133.78,1
+WCUST-00063,Maple Grill,restaurant,Robert,Thompson,wcust-00063@example.com,inbound_web,"New York, NY",2026-01-22,2026-01-25,Active Account,9,3132.0,2026-08-14,348.0,1
+WCUST-00064,Vantage Inn,hotel,Thomas,Lopez,wcust-00064@example.com,cold_outreach,"Los Angeles, CA",2025-05-29,2025-06-26,Established Account,13,7558.0,2026-08-25,581.38,1
+WCUST-00065,Wildflower Kitchen,restaurant,Susan,Martin,wcust-00065@example.com,cold_outreach,"Bay Area, CA",2026-04-07,2026-04-18,Active Account,5,1739.0,2026-08-26,347.8,1
+WCUST-00066,Sunset Fitness,gym,James,Sanchez,wcust-00066@example.com,referral,"Los Angeles, CA",2026-05-30,2026-05-30,Active Account,3,420.0,2026-08-26,140.0,1
+WCUST-00067,Blue Ridge Table,restaurant,Lisa,Rodriguez,wcust-00067@example.com,cold_outreach,"Bay Area, CA",2025-10-16,2025-11-03,Active Account,11,3578.0,2026-09-05,325.27,1
+WCUST-00068,Copper Inn,hotel,Susan,Davis,wcust-00068@example.com,direct_relationship,"Los Angeles, CA",2026-01-18,2026-01-30,Active Account,5,2800.0,2026-06-15,560.0,1
+WCUST-00069,Maple Diner,restaurant,Lisa,Thompson,wcust-00069@example.com,cold_outreach,"Los Angeles, CA",2024-01-09,2024-02-06,Established Account,35,11011.0,2026-08-27,314.6,0
+WCUST-00070,Vantage Diner,restaurant,Lisa,Davis,wcust-00070@example.com,direct_relationship,"Austin, TX",2026-01-06,2026-01-24,Active Account,8,2309.0,2026-08-18,288.62,1
+WCUST-00071,Foundry Table,restaurant,Elizabeth,Taylor,wcust-00071@example.com,inbound_web,"Portland, OR",2024-01-31,2024-02-04,Established Account,35,10256.0,2026-08-31,293.03,1
+WCUST-00072,Horizon Grill,restaurant,Yuki,Sanchez,wcust-00072@example.com,distributor_partner,"Bay Area, CA",2025-09-09,2025-10-08,Active Account,11,3588.0,2026-08-14,326.18,1
+WCUST-00073,Driftwood Bistro,restaurant,Yuki,Anderson,wcust-00073@example.com,inbound_web,"Seattle, WA",2025-12-27,2026-01-01,Active Account,10,2814.0,2026-08-19,281.4,1
+WCUST-00074,Elm Street Espresso Bar,cafe,Wei,Johnson,wcust-00074@example.com,inbound_web,"Santa Barbara, CA",2025-11-18,2025-11-25,Active Account,14,6980.0,2026-09-01,498.57,1
+WCUST-00075,Horizon Cafe,cafe,Linda,Jackson,wcust-00075@example.com,inbound_web,"Los Angeles, CA",2025-01-02,2025-01-31,Established Account,28,10877.0,2026-08-24,388.46,0
+WCUST-00076,Bramble Training Studio,gym,Fatima,Williams,wcust-00076@example.com,direct_relationship,"Santa Barbara, CA",2024-01-10,2024-02-06,Established Account,17,3022.0,2026-08-31,177.76,1
+WCUST-00077,Bramble Cafe,cafe,Lisa,Miller,wcust-00077@example.com,inbound_web,"Bay Area, CA",2026-06-15,2026-06-24,New Account,2,1386.0,2026-07-17,693.0,1
+WCUST-00078,Sunset Coffee House,cafe,Fatima,Wilson,wcust-00078@example.com,distributor_partner,"Seattle, WA",2024-10-11,2024-10-12,Established Account,32,13147.0,2026-07-24,410.84,1
+WCUST-00079,Lantern Inn,hotel,Patricia,Clark,wcust-00079@example.com,inbound_web,"Seattle, WA",2024-03-25,2024-04-21,Established Account,26,14639.0,2026-08-26,563.04,1
+WCUST-00080,Elm Street Kitchen,restaurant,Patricia,Rodriguez,wcust-00080@example.com,direct_relationship,"Seattle, WA",2024-07-18,2024-08-16,Established Account,27,8644.0,2026-09-03,320.15,1
+WCUST-00081,Golden Hour Cafe,cafe,Thomas,Perez,wcust-00081@example.com,cold_outreach,"Austin, TX",2026-08-11,,Lead,0,0.0,,,1
+WCUST-00082,Vantage Coffee Co.,cafe,Karen,Thompson,wcust-00082@example.com,inbound_web,"Los Angeles, CA",2025-03-15,,Lead,0,0.0,,,1
+WCUST-00083,Meridian Bistro,restaurant,Robert,Lopez,wcust-00083@example.com,cold_outreach,"Seattle, WA",2026-05-03,2026-05-07,Active Account,5,1407.0,2026-08-27,281.4,1
+WCUST-00084,Golden Hour Inn,hotel,Amara,Nguyen,wcust-00084@example.com,trade_show,"Seattle, WA",2024-10-24,,Lead,0,0.0,,,1
+WCUST-00085,Silver Creek Kitchen,restaurant,Richard,Jones,wcust-00085@example.com,distributor_partner,"Austin, TX",2026-02-24,2026-03-08,Active Account,7,1989.0,2026-08-22,284.14,1
+WCUST-00086,Blue Ridge Grill,restaurant,Fatima,Harris,wcust-00086@example.com,distributor_partner,"Austin, TX",2025-11-26,2025-12-15,Active Account,10,3182.0,2026-09-07,318.2,1
+WCUST-00087,Blue Ridge Fitness,gym,Elena,Johnson,wcust-00087@example.com,referral,"Seattle, WA",2026-01-30,2026-02-04,Active Account,5,625.0,2026-08-24,125.0,1
+WCUST-00088,Maple Kitchen,restaurant,Noah,Anderson,wcust-00088@example.com,trade_show,"Santa Barbara, CA",2025-12-30,2026-01-09,Active Account,10,3122.0,2026-09-02,312.2,0
+WCUST-00089,Elm Street Suites,hotel,Jessica,Garcia,wcust-00089@example.com,distributor_partner,"New York, NY",2025-01-19,2025-02-05,Established Account,18,9282.0,2026-08-18,515.67,1
+WCUST-00090,Copper Gym,gym,Andrew,Davis,wcust-00090@example.com,direct_relationship,"New York, NY",2025-11-28,2025-11-30,At-Risk,2,382.5,2026-01-18,191.25,1
+WCUST-00091,Vantage Athletic Club,gym,Elena,Rodriguez,wcust-00091@example.com,direct_relationship,"Los Angeles, CA",2025-08-01,2025-08-04,Established Account,8,1302.0,2026-08-22,162.75,1
+WCUST-00092,Bramble Hotel,hotel,Yuki,Rodriguez,wcust-00092@example.com,referral,"Los Angeles, CA",2024-02-12,2024-02-20,Established Account,27,16199.5,2026-09-04,599.98,1
+WCUST-00093,Copper Espresso Bar,cafe,Carlos,Perez,wcust-00093@example.com,inbound_web,"Santa Barbara, CA",2025-12-02,2025-12-28,Active Account,13,6438.0,2026-08-30,495.23,1
+WCUST-00094,Sunset Kitchen,restaurant,Maria,Williams,wcust-00094@example.com,referral,"Los Angeles, CA",2026-06-05,2026-07-01,New Account,4,1380.0,2026-09-02,345.0,1
+WCUST-00095,Cedar Eatery,restaurant,Lisa,Williams,wcust-00095@example.com,inbound_web,"Portland, OR",2025-03-26,2025-04-07,Churned,6,2022.0,2025-08-27,337.0,1
+WCUST-00096,Northside Athletic Club,gym,Aisha,Kim,wcust-00096@example.com,distributor_partner,"Bay Area, CA",2024-12-11,2024-12-17,Established Account,12,1978.0,2026-07-23,164.83,1
+WCUST-00097,Harbor Table,restaurant,Michael,Lee,wcust-00097@example.com,referral,"Los Angeles, CA",2024-06-26,2024-07-05,Established Account,32,9595.0,2026-09-04,299.84,1
+WCUST-00098,Bramble Bistro,restaurant,Daniel,Miller,wcust-00098@example.com,referral,"Los Angeles, CA",2025-07-29,2025-08-21,Established Account,14,3764.5,2026-08-21,268.89,1
+WCUST-00099,Bramble Grill,restaurant,Elizabeth,Sanchez,wcust-00099@example.com,distributor_partner,"Seattle, WA",2024-01-03,2024-01-22,Established Account,35,10263.0,2026-08-27,293.23,1
+WCUST-00100,Bramble Coffee Co.,cafe,Priya,Lopez,wcust-00100@example.com,inbound_web,"New York, NY",2025-10-15,2025-11-09,At-Risk,6,2163.0,2026-02-23,360.5,1
+WCUST-00101,Copper Lodge,hotel,Jessica,Garcia,wcust-00101@example.com,referral,"Los Angeles, CA",2026-03-19,2026-04-03,Active Account,5,2604.0,2026-08-24,520.8,1
+WCUST-00102,Horizon Bistro,restaurant,Elizabeth,Jones,wcust-00102@example.com,direct_relationship,"Los Angeles, CA",2026-02-13,2026-02-23,Active Account,8,2188.0,2026-08-17,273.5,1
+WCUST-00103,Copper Lodge,hotel,Andrew,Thompson,wcust-00103@example.com,trade_show,"Santa Barbara, CA",2026-08-25,,Lead,0,0.0,,,1
+WCUST-00104,Bramble Hotel,hotel,Sofia,Kim,wcust-00104@example.com,inbound_web,"Los Angeles, CA",2026-01-01,2026-01-11,Active Account,7,4871.0,2026-08-14,695.86,1
+WCUST-00105,Golden Hour Diner,restaurant,Linda,Rodriguez,wcust-00105@example.com,referral,"Bay Area, CA",2025-12-28,2026-01-19,Active Account,3,756.0,2026-03-30,252.0,1
+WCUST-00106,Vantage Kitchen,restaurant,Andrew,Perez,wcust-00106@example.com,distributor_partner,"New York, NY",2025-08-25,2025-09-12,Active Account,12,3968.5,2026-08-08,330.71,1
+WCUST-00107,Vantage Table,restaurant,Karen,Johnson,wcust-00107@example.com,referral,"Los Angeles, CA",2025-05-16,2025-06-14,Established Account,15,4419.5,2026-06-25,294.63,1
+WCUST-00108,Golden Hour Cafe,cafe,Michael,Jones,wcust-00108@example.com,cold_outreach,"New York, NY",2025-03-28,2025-04-11,At-Risk,17,7788.5,2026-02-27,458.15,1
+WCUST-00109,Golden Hour Espresso Bar,cafe,Linda,Garcia,wcust-00109@example.com,referral,"Seattle, WA",2024-07-22,2024-08-04,Established Account,37,17958.0,2026-08-15,485.35,0
+WCUST-00110,Northside Training Studio,gym,Amara,White,wcust-00110@example.com,trade_show,"Portland, OR",2024-09-23,2024-10-03,Established Account,12,2077.5,2026-07-30,173.12,1
+WCUST-00111,Ember Bistro,restaurant,Aisha,Taylor,wcust-00111@example.com,cold_outreach,"Seattle, WA",2025-03-30,2025-04-12,Established Account,20,5877.0,2026-09-04,293.85,0
+WCUST-00112,Driftwood Bistro,restaurant,Fatima,Rodriguez,wcust-00112@example.com,referral,"Bay Area, CA",2024-12-18,2025-01-12,Established Account,23,7164.0,2026-08-31,311.48,1
+WCUST-00113,Driftwood Cafe,cafe,David,Harris,wcust-00113@example.com,distributor_partner,"Santa Barbara, CA",2025-04-03,2025-04-12,Established Account,27,12337.5,2026-09-03,456.94,1
+WCUST-00114,Driftwood Hotel,hotel,Michael,Thompson,wcust-00114@example.com,distributor_partner,"Austin, TX",2025-11-27,,Lead,0,0.0,,,1
+WCUST-00115,Copper Coffee Co.,cafe,Patricia,Garcia,wcust-00115@example.com,cold_outreach,"Bay Area, CA",2025-06-06,,Lead,0,0.0,,,1
+WCUST-00116,Elm Street Cafe,cafe,Jessica,Perez,wcust-00116@example.com,cold_outreach,"New York, NY",2024-07-08,2024-08-02,Established Account,38,17495.5,2026-08-31,460.41,1
+WCUST-00117,Cedar Table,restaurant,Elizabeth,Thomas,wcust-00117@example.com,inbound_web,"Seattle, WA",2026-05-15,2026-05-16,Active Account,5,1512.0,2026-08-30,302.4,1
+WCUST-00118,Maple Lodge,hotel,David,Patel,wcust-00118@example.com,referral,"Los Angeles, CA",2025-12-01,2025-12-11,Active Account,9,5863.0,2026-08-20,651.44,1
+WCUST-00119,Elm Street Diner,restaurant,Elena,Wilson,wcust-00119@example.com,referral,"Seattle, WA",2025-03-16,2025-04-06,Established Account,19,6170.0,2026-08-24,324.74,1
+WCUST-00120,Lantern Eatery,restaurant,Susan,Perez,wcust-00120@example.com,distributor_partner,"Los Angeles, CA",2025-10-10,2025-10-19,At-Risk,5,1632.0,2026-02-14,326.4,0
+WCUST-00121,Ember Coffee House,cafe,Richard,Patel,wcust-00121@example.com,direct_relationship,"Bay Area, CA",2025-09-05,,Lead,0,0.0,,,1
+WCUST-00122,Blue Ridge Coffee House,cafe,John,Patel,wcust-00122@example.com,distributor_partner,"New York, NY",2025-07-11,,Lead,0,0.0,,,1
+WCUST-00123,Harbor Roasters,cafe,David,Harris,wcust-00123@example.com,trade_show,"New York, NY",2025-03-29,2025-04-10,Established Account,26,12391.0,2026-09-03,476.58,1
+WCUST-00124,Vantage Roasters,cafe,David,Clark,wcust-00124@example.com,cold_outreach,"Santa Barbara, CA",2025-09-03,2025-09-09,Established Account,13,5857.5,2026-06-02,450.58,1
+WCUST-00125,Ember Eatery,restaurant,Michael,Garcia,wcust-00125@example.com,distributor_partner,"New York, NY",2025-12-09,2025-12-26,Active Account,9,3265.0,2026-08-26,362.78,0
+WCUST-00126,Northside Training Studio,gym,Richard,Patel,wcust-00126@example.com,inbound_web,"Austin, TX",2024-06-15,2024-06-16,Established Account,16,2929.0,2026-09-03,183.06,1
+WCUST-00127,Ember Espresso Bar,cafe,Yuki,Jones,wcust-00127@example.com,distributor_partner,"Los Angeles, CA",2024-01-16,2024-01-29,Established Account,46,20736.5,2026-08-31,450.79,1
+WCUST-00128,Blue Ridge Table,restaurant,Robert,Thomas,wcust-00128@example.com,cold_outreach,"Seattle, WA",2026-09-04,,Lead,0,0.0,,,1
+WCUST-00129,Sunset Coffee House,cafe,Noah,Garcia,wcust-00129@example.com,trade_show,"Los Angeles, CA",2025-04-02,2025-04-10,Established Account,24,10714.0,2026-08-25,446.42,1
+WCUST-00130,Copper Coffee Co.,cafe,Yuki,Nguyen,wcust-00130@example.com,referral,"Portland, OR",2026-06-05,2026-06-30,New Account,4,1947.0,2026-09-01,486.75,1
+WCUST-00131,Cedar Grill,restaurant,Michael,Brown,wcust-00131@example.com,distributor_partner,"Santa Barbara, CA",2026-07-14,2026-08-04,New Account,2,420.0,2026-09-03,210.0,0
+WCUST-00132,Maple Cafe,cafe,Linda,Garcia,wcust-00132@example.com,cold_outreach,"New York, NY",2026-09-03,2026-09-09,New Account,1,700.0,2026-09-09,700.0,1
+WCUST-00133,Silver Creek Grill,restaurant,Hiroshi,Williams,wcust-00133@example.com,direct_relationship,"Bay Area, CA",2025-06-25,,Lead,0,0.0,,,1
+WCUST-00134,Bramble Inn,hotel,Thomas,Williams,wcust-00134@example.com,referral,"Los Angeles, CA",2026-06-03,2026-06-25,New Account,2,1120.0,2026-07-22,560.0,1
+WCUST-00135,Wildflower Lodge,hotel,Carlos,Williams,wcust-00135@example.com,cold_outreach,"Bay Area, CA",2026-03-19,2026-04-11,Active Account,5,2786.0,2026-08-28,557.2,1
+WCUST-00136,Driftwood Roasters,cafe,Elizabeth,Hernandez,wcust-00136@example.com,distributor_partner,"New York, NY",2025-11-03,2025-11-29,Active Account,15,7213.0,2026-09-03,480.87,1
+WCUST-00137,Bramble Inn,hotel,Lisa,Anderson,wcust-00137@example.com,referral,"New York, NY",2024-12-26,,Lead,0,0.0,,,1
+WCUST-00138,Wildflower Cafe,cafe,Aisha,Chen,wcust-00138@example.com,inbound_web,"New York, NY",2024-09-06,2024-09-14,Established Account,35,15897.0,2026-08-18,454.2,1
+WCUST-00139,Wildflower Grill,restaurant,Robert,Patel,wcust-00139@example.com,cold_outreach,"Los Angeles, CA",2024-10-22,2024-11-13,Established Account,24,7269.0,2026-08-30,302.88,1
+WCUST-00140,Copper Coffee House,cafe,Jessica,Perez,wcust-00140@example.com,distributor_partner,"New York, NY",2025-05-07,2025-05-30,At-Risk,12,5698.0,2026-02-03,474.83,1
+WCUST-00141,Maple Diner,restaurant,Karen,Martin,wcust-00141@example.com,referral,"Bay Area, CA",2023-11-26,2023-12-14,Churned,7,2298.0,2024-06-01,328.29,1
+WCUST-00142,Wildflower Lodge,hotel,Maria,Lopez,wcust-00142@example.com,distributor_partner,"Los Angeles, CA",2023-12-25,2024-01-20,Churned,6,3834.0,2024-08-03,639.0,1
+WCUST-00143,Vantage Coffee Co.,cafe,Robert,Sanchez,wcust-00143@example.com,referral,"Bay Area, CA",2025-02-18,2025-03-19,Established Account,27,12428.5,2026-09-07,460.31,1
+WCUST-00144,Meridian Inn,hotel,Jennifer,Smith,wcust-00144@example.com,trade_show,"Los Angeles, CA",2026-02-14,2026-02-26,Active Account,4,1932.0,2026-06-20,483.0,0
+WCUST-00145,Vantage Training Studio,gym,Robert,Thompson,wcust-00145@example.com,cold_outreach,"New York, NY",2025-12-05,2026-01-03,Active Account,4,868.0,2026-07-13,217.0,1
+WCUST-00146,Maple Kitchen,restaurant,Robert,White,wcust-00146@example.com,direct_relationship,"Austin, TX",2026-04-19,2026-04-29,Active Account,6,1688.0,2026-09-08,281.33,1
+WCUST-00147,Ember Coffee Co.,cafe,Patricia,Thomas,wcust-00147@example.com,direct_relationship,"New York, NY",2023-12-27,,Lead,0,0.0,,,1
+WCUST-00148,Horizon Eatery,restaurant,Diego,Nguyen,wcust-00148@example.com,inbound_web,"Los Angeles, CA",2024-03-04,2024-03-13,Established Account,33,10155.5,2026-08-20,307.74,1
+WCUST-00149,Vantage Kitchen,restaurant,Wei,Wilson,wcust-00149@example.com,inbound_web,"Los Angeles, CA",2026-08-17,,Lead,0,0.0,,,1
+WCUST-00150,Lantern Coffee Co.,cafe,David,Sanchez,wcust-00150@example.com,inbound_web,"Portland, OR",2025-06-27,2025-07-07,Established Account,14,5748.0,2026-03-27,410.57,1
+WCUST-00151,Bramble Inn,hotel,Jennifer,Hernandez,wcust-00151@example.com,referral,"Portland, OR",2025-02-12,2025-02-14,Established Account,17,11001.0,2026-08-27,647.12,1
+WCUST-00152,Ember Bistro,restaurant,Richard,Wilson,wcust-00152@example.com,direct_relationship,"Portland, OR",2023-11-09,2023-12-08,Churned,12,3777.0,2024-10-22,314.75,1
+WCUST-00153,Vantage Kitchen,restaurant,Jennifer,Hernandez,wcust-00153@example.com,referral,"Bay Area, CA",2025-10-21,,Lead,0,0.0,,,1
+WCUST-00154,Northside Table,restaurant,Andrew,Lopez,wcust-00154@example.com,inbound_web,"Portland, OR",2024-09-17,2024-10-14,Established Account,26,8482.5,2026-08-30,326.25,1
+WCUST-00155,Copper Table,restaurant,Elizabeth,Martin,wcust-00155@example.com,cold_outreach,"Bay Area, CA",2024-10-09,2024-10-23,At-Risk,14,4062.0,2025-10-16,290.14,1
+WCUST-00156,Cedar Diner,restaurant,Wei,Brown,wcust-00156@example.com,cold_outreach,"Bay Area, CA",2026-08-27,,Lead,0,0.0,,,1
+WCUST-00157,Horizon Gym,gym,Hiroshi,Rodriguez,wcust-00157@example.com,distributor_partner,"Austin, TX",2026-07-15,,Lead,0,0.0,,,1
+WCUST-00158,Copper Cafe,cafe,David,Williams,wcust-00158@example.com,referral,"Seattle, WA",2025-06-12,2025-07-09,Established Account,20,9153.0,2026-08-20,457.65,1
+WCUST-00159,Lantern Diner,restaurant,Sofia,Nguyen,wcust-00159@example.com,trade_show,"Los Angeles, CA",2026-03-22,2026-04-11,Active Account,6,1875.0,2026-09-08,312.5,1
+WCUST-00160,Blue Ridge Eatery,restaurant,Maria,Garcia,wcust-00160@example.com,direct_relationship,"Los Angeles, CA",2025-12-12,,Lead,0,0.0,,,1
+WCUST-00161,Bramble Table,restaurant,Diego,Hernandez,wcust-00161@example.com,distributor_partner,"New York, NY",2024-02-14,2024-03-05,Established Account,31,8924.5,2026-08-17,287.89,1
+WCUST-00162,Silver Creek Espresso Bar,cafe,Aisha,Anderson,wcust-00162@example.com,trade_show,"Seattle, WA",2026-06-15,2026-06-21,New Account,4,1876.0,2026-08-26,469.0,1
+WCUST-00163,Vantage Athletic Club,gym,Carlos,Wilson,wcust-00163@example.com,distributor_partner,"Seattle, WA",2025-12-20,2025-12-30,Active Account,6,1101.0,2026-09-09,183.5,1
+WCUST-00164,Maple Lodge,hotel,Sofia,Thompson,wcust-00164@example.com,trade_show,"New York, NY",2025-08-04,2025-08-25,Established Account,13,8815.0,2026-09-05,678.08,1
+WCUST-00165,Copper Coffee House,cafe,Robert,Rodriguez,wcust-00165@example.com,trade_show,"New York, NY",2025-12-27,2026-01-19,Active Account,12,5017.0,2026-08-30,418.08,1
+WCUST-00166,Meridian Bistro,restaurant,James,Harris,wcust-00166@example.com,direct_relationship,"New York, NY",2024-09-19,2024-09-20,Established Account,25,6770.0,2026-08-26,270.8,0
+WCUST-00167,Lantern Gym,gym,Aisha,Lee,wcust-00167@example.com,referral,"Bay Area, CA",2025-06-28,2025-07-14,At-Risk,3,588.0,2025-11-19,196.0,1
+WCUST-00168,Maple Cafe,cafe,Linda,Wilson,wcust-00168@example.com,referral,"Bay Area, CA",2024-11-13,,Lead,0,0.0,,,1
+WCUST-00169,Silver Creek Coffee House,cafe,Elena,Hernandez,wcust-00169@example.com,direct_relationship,"Bay Area, CA",2026-06-24,2026-07-21,New Account,3,1428.0,2026-08-29,476.0,1
+WCUST-00170,Vantage Hotel,hotel,Amara,Miller,wcust-00170@example.com,inbound_web,"Los Angeles, CA",2025-07-24,,Lead,0,0.0,,,1
+WCUST-00171,Elm Street Lodge,hotel,Karen,Nguyen,wcust-00171@example.com,distributor_partner,"Austin, TX",2026-06-01,2026-06-15,New Account,3,2106.0,2026-08-20,702.0,1
+WCUST-00172,Cedar Hotel,hotel,Elizabeth,Nguyen,wcust-00172@example.com,inbound_web,"New York, NY",2026-02-04,2026-02-16,Active Account,7,4132.0,2026-09-04,590.29,1
+WCUST-00173,Bramble Eatery,restaurant,Thomas,Harris,wcust-00173@example.com,referral,"Los Angeles, CA",2026-02-07,2026-02-24,Active Account,7,2366.0,2026-08-15,338.0,1
+WCUST-00174,Bramble Inn,hotel,Michael,Hernandez,wcust-00174@example.com,inbound_web,"Austin, TX",2026-08-05,2026-09-03,New Account,1,336.0,2026-09-03,336.0,1
+WCUST-00175,Meridian Coffee House,cafe,Sofia,Jones,wcust-00175@example.com,cold_outreach,"Bay Area, CA",2025-08-12,2025-08-15,Established Account,19,8588.0,2026-09-07,452.0,1
+WCUST-00176,Cedar Roasters,cafe,Patricia,Rodriguez,wcust-00176@example.com,inbound_web,"Bay Area, CA",2024-09-28,2024-10-07,Established Account,33,15631.5,2026-08-17,473.68,0
+WCUST-00177,Ember Roasters,cafe,Aisha,Garcia,wcust-00177@example.com,inbound_web,"Los Angeles, CA",2024-03-12,2024-03-31,Established Account,44,21349.0,2026-08-25,485.2,1
+WCUST-00178,Sunset Inn,hotel,Maria,Garcia,wcust-00178@example.com,distributor_partner,"Seattle, WA",2025-11-16,2025-12-12,Active Account,7,4110.0,2026-07-28,587.14,1
+WCUST-00179,Blue Ridge Inn,hotel,Daniel,Miller,wcust-00179@example.com,direct_relationship,"Los Angeles, CA",2025-07-18,2025-07-28,Established Account,13,7419.0,2026-08-26,570.69,1
+WCUST-00180,Bramble Table,restaurant,Karen,White,wcust-00180@example.com,distributor_partner,"Seattle, WA",2026-06-30,2026-07-18,New Account,2,420.0,2026-08-14,210.0,0
+WCUST-00181,Cedar Bistro,restaurant,David,Wilson,wcust-00181@example.com,referral,"Los Angeles, CA",2023-10-17,2023-10-23,Established Account,38,9869.5,2026-09-08,259.72,1
+WCUST-00182,Harbor Coffee Co.,cafe,Amara,Martinez,wcust-00182@example.com,trade_show,"Los Angeles, CA",2026-08-06,2026-08-27,New Account,1,672.0,2026-08-27,672.0,1
+WCUST-00183,Ironwood Bistro,restaurant,Noah,Anderson,wcust-00183@example.com,distributor_partner,"Bay Area, CA",2025-04-12,2025-04-23,Established Account,19,5544.0,2026-09-06,291.79,1
+WCUST-00184,Harbor Bistro,restaurant,Noah,Brown,wcust-00184@example.com,distributor_partner,"Los Angeles, CA",2026-02-11,2026-02-23,Active Account,8,2646.0,2026-08-16,330.75,1
+WCUST-00185,Ironwood Lodge,hotel,Maria,Patel,wcust-00185@example.com,referral,"New York, NY",2026-02-25,2026-03-16,Active Account,5,3485.0,2026-08-05,697.0,1
+WCUST-00186,Blue Ridge Roasters,cafe,Amara,Moore,wcust-00186@example.com,trade_show,"Austin, TX",2024-10-12,2024-11-08,Established Account,33,14887.0,2026-08-23,451.12,1
+WCUST-00187,Silver Creek Hotel,hotel,Lisa,Anderson,wcust-00187@example.com,trade_show,"New York, NY",2024-07-06,2024-07-15,Established Account,23,14562.0,2026-08-10,633.13,1
+WCUST-00188,Foundry Fitness,gym,Sofia,Martinez,wcust-00188@example.com,direct_relationship,"Austin, TX",2026-01-12,2026-02-10,Active Account,4,756.0,2026-08-13,189.0,1
+WCUST-00189,Wildflower Eatery,restaurant,Noah,Hernandez,wcust-00189@example.com,trade_show,"Bay Area, CA",2026-08-17,,Lead,0,0.0,,,1
+WCUST-00190,Silver Creek Table,restaurant,Carlos,Nguyen,wcust-00190@example.com,distributor_partner,"Santa Barbara, CA",2026-05-03,2026-05-13,Active Account,5,1400.0,2026-08-28,280.0,1
+WCUST-00191,Vantage Diner,restaurant,Linda,Brown,wcust-00191@example.com,referral,"New York, NY",2026-08-29,,Lead,0,0.0,,,1
+WCUST-00192,Golden Hour Espresso Bar,cafe,Elizabeth,Davis,wcust-00192@example.com,inbound_web,"Seattle, WA",2025-06-05,2025-07-05,Established Account,20,9237.0,2026-08-19,461.85,1
+WCUST-00193,Golden Hour Roasters,cafe,Maria,Thompson,wcust-00193@example.com,inbound_web,"Portland, OR",2024-09-21,2024-09-30,Established Account,34,15871.5,2026-08-31,466.81,1
+WCUST-00194,Lantern Athletic Club,gym,Patricia,Perez,wcust-00194@example.com,referral,"Seattle, WA",2024-07-30,2024-08-16,Churned,7,1059.0,2025-07-09,151.29,1
+WCUST-00195,Ironwood Diner,restaurant,Maria,Clark,wcust-00195@example.com,inbound_web,"Portland, OR",2025-12-18,2025-12-18,Active Account,10,2982.0,2026-09-03,298.2,1
+WCUST-00196,Copper Eatery,restaurant,Lisa,Martin,wcust-00196@example.com,cold_outreach,"New York, NY",2025-02-16,2025-02-17,Established Account,22,6537.0,2026-09-05,297.14,1
+WCUST-00197,Vantage Coffee Co.,cafe,Yuki,Williams,wcust-00197@example.com,referral,"Seattle, WA",2024-08-09,2024-08-10,Established Account,37,15962.0,2026-08-19,431.41,1
+WCUST-00198,Horizon Diner,restaurant,Thomas,Harris,wcust-00198@example.com,direct_relationship,"Santa Barbara, CA",2025-08-03,2025-08-19,Established Account,14,3535.5,2026-08-19,252.54,0
+WCUST-00199,Ironwood Lodge,hotel,Aisha,Smith,wcust-00199@example.com,cold_outreach,"Los Angeles, CA",2026-01-30,2026-02-02,Active Account,6,2772.0,2026-08-09,462.0,1
+WCUST-00200,Golden Hour Coffee Co.,cafe,Jennifer,Moore,wcust-00200@example.com,direct_relationship,"Bay Area, CA",2025-07-21,2025-08-15,Established Account,19,8101.0,2026-08-21,426.37,1
+WCUST-00201,Vantage Table,restaurant,Elena,White,wcust-00201@example.com,cold_outreach,"New York, NY",2025-03-26,2025-03-29,Established Account,20,6080.0,2026-09-01,304.0,1
+WCUST-00202,Elm Street Table,restaurant,Amara,Hernandez,wcust-00202@example.com,inbound_web,"Los Angeles, CA",2024-10-27,2024-11-05,Established Account,23,6913.0,2026-08-14,300.57,0
+WCUST-00203,Harbor Diner,restaurant,Aisha,Clark,wcust-00203@example.com,trade_show,"Los Angeles, CA",2026-06-20,2026-07-14,New Account,2,438.0,2026-08-11,219.0,1
+WCUST-00204,Silver Creek Bistro,restaurant,Fatima,Williams,wcust-00204@example.com,referral,"Austin, TX",2025-01-16,2025-01-16,Churned,3,1260.0,2025-03-14,420.0,1
+WCUST-00205,Maple Grill,restaurant,Andrew,Lopez,wcust-00205@example.com,trade_show,"Portland, OR",2026-01-04,2026-01-07,Active Account,10,2808.0,2026-08-24,280.8,0
+WCUST-00206,Copper Grill,restaurant,Elizabeth,Miller,wcust-00206@example.com,trade_show,"Los Angeles, CA",2024-10-18,2024-10-24,Established Account,26,7478.0,2026-09-06,287.62,1
+WCUST-00207,Golden Hour Grill,restaurant,Maria,Jones,wcust-00207@example.com,trade_show,"Portland, OR",2023-09-26,2023-09-28,Established Account,40,12441.5,2026-09-06,311.04,0
+WCUST-00208,Wildflower Eatery,restaurant,Noah,Brown,wcust-00208@example.com,cold_outreach,"Bay Area, CA",2024-07-01,,Lead,0,0.0,,,1
+WCUST-00209,Copper Eatery,restaurant,Maria,Patel,wcust-00209@example.com,distributor_partner,"Portland, OR",2026-09-03,,Lead,0,0.0,,,1
+WCUST-00210,Northside Coffee House,cafe,Carlos,Brown,wcust-00210@example.com,inbound_web,"Austin, TX",2024-07-22,2024-08-05,Established Account,35,18448.0,2026-09-05,527.09,1
+WCUST-00211,Bramble Diner,restaurant,Aisha,Wilson,wcust-00211@example.com,referral,"Portland, OR",2026-07-30,2026-08-01,New Account,2,672.0,2026-08-21,336.0,1
+WCUST-00212,Harbor Coffee House,cafe,Aisha,Garcia,wcust-00212@example.com,referral,"Austin, TX",2025-02-03,2025-02-03,Established Account,29,13857.0,2026-09-02,477.83,1
+WCUST-00213,Elm Street Cafe,cafe,Elizabeth,Brown,wcust-00213@example.com,inbound_web,"New York, NY",2026-05-18,2026-05-28,Active Account,5,2982.0,2026-08-28,596.4,1
+WCUST-00214,Foundry Lodge,hotel,David,Rodriguez,wcust-00214@example.com,inbound_web,"New York, NY",2025-05-31,2025-06-14,Established Account,13,7440.0,2026-08-18,572.31,1
+WCUST-00215,Ironwood Fitness,gym,Michael,Lee,wcust-00215@example.com,referral,"Seattle, WA",2026-01-09,2026-01-27,Active Account,5,952.0,2026-08-28,190.4,1
+WCUST-00216,Ember Grill,restaurant,Karen,Garcia,wcust-00216@example.com,cold_outreach,"Los Angeles, CA",2025-06-24,2025-07-13,Established Account,16,4286.0,2026-08-27,267.88,1
+WCUST-00217,Bramble Table,restaurant,Sofia,Clark,wcust-00217@example.com,inbound_web,"New York, NY",2025-05-19,,Lead,0,0.0,,,1
+WCUST-00218,Meridian Roasters,cafe,Elena,Chen,wcust-00218@example.com,cold_outreach,"Bay Area, CA",2025-02-03,2025-02-04,At-Risk,12,5839.0,2025-10-05,486.58,1
+WCUST-00219,Harbor Kitchen,restaurant,Karen,Jones,wcust-00219@example.com,trade_show,"Bay Area, CA",2024-12-17,2025-01-08,At-Risk,11,3096.0,2025-10-30,281.45,1
+WCUST-00220,Maple Table,restaurant,Diego,Chen,wcust-00220@example.com,trade_show,"Bay Area, CA",2025-09-01,2025-09-29,Active Account,13,3899.0,2026-09-09,299.92,0
+WCUST-00221,Maple Diner,restaurant,David,Jackson,wcust-00221@example.com,trade_show,"New York, NY",2024-09-22,2024-10-19,Established Account,24,6927.5,2026-08-25,288.65,1
+WCUST-00222,Driftwood Training Studio,gym,John,Clark,wcust-00222@example.com,referral,"New York, NY",2025-09-26,2025-10-09,Active Account,7,1101.0,2026-08-18,157.29,1
+WCUST-00223,Northside Roasters,cafe,Daniel,Johnson,wcust-00223@example.com,trade_show,"Los Angeles, CA",2025-10-26,2025-11-16,Active Account,14,6970.0,2026-08-24,497.86,1
+WCUST-00224,Meridian Coffee Co.,cafe,John,Sanchez,wcust-00224@example.com,distributor_partner,"Los Angeles, CA",2026-06-02,2026-06-23,New Account,4,2247.0,2026-08-28,561.75,1
+WCUST-00225,Cedar Diner,restaurant,Sofia,Clark,wcust-00225@example.com,distributor_partner,"New York, NY",2026-09-01,,Lead,0,0.0,,,1
+WCUST-00226,Silver Creek Eatery,restaurant,Patricia,Smith,wcust-00226@example.com,inbound_web,"Seattle, WA",2026-05-01,2026-05-02,Active Account,5,1260.0,2026-08-12,252.0,1
+WCUST-00227,Cedar Table,restaurant,Elena,Thomas,wcust-00227@example.com,referral,"Austin, TX",2025-05-15,2025-05-29,At-Risk,9,2545.5,2026-01-11,282.83,1
+WCUST-00228,Copper Espresso Bar,cafe,Aisha,Taylor,wcust-00228@example.com,direct_relationship,"New York, NY",2024-08-31,2024-09-06,Established Account,37,17092.0,2026-08-24,461.95,1
+WCUST-00229,Blue Ridge Coffee House,cafe,David,Thomas,wcust-00229@example.com,cold_outreach,"New York, NY",2026-01-06,2026-01-20,Active Account,12,5776.0,2026-09-05,481.33,1
+WCUST-00230,Golden Hour Coffee Co.,cafe,Andrew,Chen,wcust-00230@example.com,cold_outreach,"Los Angeles, CA",2024-11-06,2024-11-06,Churned,3,1344.0,2024-12-24,448.0,1
+WCUST-00231,Maple Diner,restaurant,Jessica,Moore,wcust-00231@example.com,distributor_partner,"New York, NY",2026-08-24,2026-09-05,New Account,1,420.0,2026-09-05,420.0,1
+WCUST-00232,Northside Inn,hotel,Elena,Williams,wcust-00232@example.com,referral,"New York, NY",2026-03-13,2026-03-18,Active Account,5,3192.0,2026-08-21,638.4,1
+WCUST-00233,Meridian Diner,restaurant,Patricia,Perez,wcust-00233@example.com,inbound_web,"New York, NY",2024-08-18,2024-09-06,Established Account,27,7829.0,2026-08-29,289.96,1
+WCUST-00234,Golden Hour Coffee House,cafe,Jessica,Hernandez,wcust-00234@example.com,distributor_partner,"New York, NY",2025-08-02,2025-08-16,Established Account,18,10456.0,2026-08-15,580.89,1
+WCUST-00235,Elm Street Coffee House,cafe,Patricia,Anderson,wcust-00235@example.com,inbound_web,"Los Angeles, CA",2025-06-24,,Lead,0,0.0,,,1
+WCUST-00236,Cedar Bistro,restaurant,David,Lopez,wcust-00236@example.com,cold_outreach,"Seattle, WA",2025-06-09,2025-07-07,At-Risk,7,2607.0,2025-12-26,372.43,1
+WCUST-00237,Horizon Roasters,cafe,David,Hernandez,wcust-00237@example.com,inbound_web,"Austin, TX",2024-01-08,2024-01-15,Established Account,48,23192.5,2026-08-28,483.18,1
+WCUST-00238,Sunset Hotel,hotel,Noah,Martinez,wcust-00238@example.com,distributor_partner,"Santa Barbara, CA",2024-06-23,,Lead,0,0.0,,,1
+WCUST-00239,Horizon Table,restaurant,James,Rodriguez,wcust-00239@example.com,inbound_web,"Los Angeles, CA",2026-02-17,2026-03-14,Active Account,7,1908.0,2026-08-27,272.57,1
+WCUST-00240,Cedar Roasters,cafe,Susan,Nguyen,wcust-00240@example.com,cold_outreach,"Seattle, WA",2025-12-08,2025-12-29,Active Account,13,5904.5,2026-08-30,454.19,1
+WCUST-00241,Cedar Fitness,gym,Robert,Martin,wcust-00241@example.com,inbound_web,"Austin, TX",2025-03-29,2025-04-03,Established Account,10,1680.0,2026-09-04,168.0,0
+WCUST-00242,Wildflower Grill,restaurant,Jessica,Johnson,wcust-00242@example.com,referral,"Santa Barbara, CA",2026-07-28,2026-07-29,New Account,2,588.0,2026-09-02,294.0,1
+WCUST-00243,Foundry Cafe,cafe,Elena,Johnson,wcust-00243@example.com,trade_show,"Los Angeles, CA",2025-02-08,2025-02-28,Established Account,28,13803.0,2026-09-03,492.96,1
+WCUST-00244,Foundry Kitchen,restaurant,Fatima,Nguyen,wcust-00244@example.com,trade_show,"Seattle, WA",2025-12-10,2026-01-06,Active Account,9,2772.0,2026-08-19,308.0,1
+WCUST-00245,Driftwood Eatery,restaurant,Susan,Davis,wcust-00245@example.com,inbound_web,"Portland, OR",2024-09-28,2024-10-05,Established Account,25,7383.0,2026-08-23,295.32,1
+WCUST-00246,Ember Diner,restaurant,Priya,Sanchez,wcust-00246@example.com,distributor_partner,"Bay Area, CA",2026-09-05,,Lead,0,0.0,,,1
+WCUST-00247,Elm Street Kitchen,restaurant,Elizabeth,Thomas,wcust-00247@example.com,referral,"Austin, TX",2025-09-05,2025-10-05,Active Account,13,4185.0,2026-08-28,321.92,1
+WCUST-00248,Foundry Eatery,restaurant,James,Harris,wcust-00248@example.com,referral,"Bay Area, CA",2026-05-29,2026-06-08,Active Account,2,756.0,2026-07-08,378.0,0
+WCUST-00249,Lantern Suites,hotel,John,Jackson,wcust-00249@example.com,referral,"Santa Barbara, CA",2025-07-01,,Lead,0,0.0,,,0
+WCUST-00250,Maple Inn,hotel,Elizabeth,Garcia,wcust-00250@example.com,cold_outreach,"Bay Area, CA",2024-11-14,2024-12-02,Established Account,20,12062.0,2026-09-04,603.1,1
+WCUST-00251,Maple Eatery,restaurant,Aisha,Martinez,wcust-00251@example.com,referral,"Seattle, WA",2025-12-27,2025-12-30,Active Account,9,2757.0,2026-08-19,306.33,1
+WCUST-00252,Elm Street Diner,restaurant,Jennifer,Davis,wcust-00252@example.com,trade_show,"New York, NY",2026-07-10,2026-08-08,New Account,2,602.0,2026-08-28,301.0,0
+WCUST-00253,Meridian Table,restaurant,Elizabeth,Thomas,wcust-00253@example.com,distributor_partner,"Bay Area, CA",2026-01-18,2026-01-18,Active Account,7,1584.0,2026-06-01,226.29,1
+WCUST-00254,Ember Roasters,cafe,Linda,Jackson,wcust-00254@example.com,trade_show,"Seattle, WA",2026-06-04,2026-06-04,Active Account,5,2548.0,2026-09-01,509.6,1
+WCUST-00255,Cedar Cafe,cafe,Fatima,Perez,wcust-00255@example.com,referral,"Santa Barbara, CA",2026-05-16,2026-05-24,Active Account,6,3097.0,2026-08-29,516.17,1
+WCUST-00256,Northside Bistro,restaurant,Elizabeth,Miller,wcust-00256@example.com,inbound_web,"Seattle, WA",2026-05-08,2026-05-24,Active Account,4,1444.5,2026-08-30,361.12,0
+WCUST-00257,Copper Hotel,hotel,Hiroshi,Thomas,wcust-00257@example.com,direct_relationship,"Bay Area, CA",2025-07-04,2025-07-19,Established Account,10,5363.0,2026-06-22,536.3,1
+WCUST-00258,Wildflower Espresso Bar,cafe,Jessica,Martinez,wcust-00258@example.com,trade_show,"Portland, OR",2026-09-04,,Lead,0,0.0,,,1
+WCUST-00259,Bramble Grill,restaurant,Andrew,Hernandez,wcust-00259@example.com,trade_show,"Santa Barbara, CA",2026-05-09,2026-05-15,Active Account,4,1026.0,2026-08-23,256.5,1
+WCUST-00260,Horizon Diner,restaurant,Karen,Sanchez,wcust-00260@example.com,cold_outreach,"Seattle, WA",2025-09-28,2025-10-03,Active Account,10,2935.0,2026-06-01,293.5,1
+WCUST-00261,Bramble Table,restaurant,Lisa,Rodriguez,wcust-00261@example.com,cold_outreach,"New York, NY",2025-06-01,2025-06-18,At-Risk,9,2559.0,2026-01-27,284.33,1
+WCUST-00262,Ironwood Roasters,cafe,Amara,Kim,wcust-00262@example.com,cold_outreach,"Bay Area, CA",2025-03-30,2025-04-26,Established Account,23,11321.0,2026-08-31,492.22,1
+WCUST-00263,Horizon Suites,hotel,Fatima,Moore,wcust-00263@example.com,referral,"Portland, OR",2026-06-25,2026-07-18,New Account,2,1462.0,2026-09-01,731.0,1
+WCUST-00264,Maple Training Studio,gym,James,Jackson,wcust-00264@example.com,distributor_partner,"New York, NY",2025-03-30,2025-04-06,Established Account,10,1716.0,2026-08-14,171.6,1
+WCUST-00265,Wildflower Athletic Club,gym,Noah,Moore,wcust-00265@example.com,distributor_partner,"New York, NY",2025-01-05,2025-01-22,Established Account,11,1492.0,2026-08-14,135.64,1
+WCUST-00266,Wildflower Bistro,restaurant,Yuki,Miller,wcust-00266@example.com,trade_show,"Los Angeles, CA",2024-05-11,2024-05-31,Established Account,30,8566.5,2026-08-30,285.55,1
+WCUST-00267,Harbor Kitchen,restaurant,Elena,Hernandez,wcust-00267@example.com,distributor_partner,"Los Angeles, CA",2025-09-25,2025-10-17,Active Account,12,3784.0,2026-08-27,315.33,1
+WCUST-00268,Bramble Coffee House,cafe,Aisha,Martinez,wcust-00268@example.com,referral,"New York, NY",2024-01-11,2024-01-21,Established Account,45,20458.0,2026-08-29,454.62,0
+WCUST-00269,Driftwood Gym,gym,Sofia,Lee,wcust-00269@example.com,referral,"Seattle, WA",2025-09-25,2025-09-26,Active Account,5,793.0,2026-04-05,158.6,1
+WCUST-00270,Silver Creek Grill,restaurant,Susan,Sanchez,wcust-00270@example.com,trade_show,"Seattle, WA",2024-11-08,2024-11-17,Established Account,25,7180.5,2026-08-18,287.22,1
+WCUST-00271,Driftwood Kitchen,restaurant,Daniel,Perez,wcust-00271@example.com,distributor_partner,"Los Angeles, CA",2025-06-03,2025-06-08,Established Account,17,5267.0,2026-08-26,309.82,1
+WCUST-00272,Elm Street Lodge,hotel,Linda,Martinez,wcust-00272@example.com,direct_relationship,"Los Angeles, CA",2024-11-23,,Lead,0,0.0,,,1
+WCUST-00273,Horizon Inn,hotel,Elena,Kim,wcust-00273@example.com,cold_outreach,"Austin, TX",2025-08-10,2025-08-29,Established Account,11,7074.0,2026-08-02,643.09,1
+WCUST-00274,Wildflower Suites,hotel,Amara,Patel,wcust-00274@example.com,inbound_web,"Bay Area, CA",2026-05-11,2026-05-27,Active Account,2,840.0,2026-06-29,420.0,1
+WCUST-00275,Golden Hour Roasters,cafe,John,Martinez,wcust-00275@example.com,direct_relationship,"Austin, TX",2024-11-01,,Lead,0,0.0,,,1
+WCUST-00276,Blue Ridge Kitchen,restaurant,Susan,Martin,wcust-00276@example.com,trade_show,"Portland, OR",2026-07-03,2026-07-27,New Account,2,756.0,2026-08-23,378.0,1
+WCUST-00277,Elm Street Roasters,cafe,Susan,Clark,wcust-00277@example.com,distributor_partner,"Austin, TX",2026-07-08,2026-08-05,New Account,2,588.0,2026-08-21,294.0,1
+WCUST-00278,Vantage Lodge,hotel,Jessica,Jones,wcust-00278@example.com,inbound_web,"New York, NY",2026-08-24,2026-08-25,New Account,1,420.0,2026-08-25,420.0,1
+WCUST-00279,Meridian Athletic Club,gym,Fatima,Brown,wcust-00279@example.com,referral,"Austin, TX",2024-04-27,,Lead,0,0.0,,,1
+WCUST-00280,Ember Inn,hotel,Jessica,Kim,wcust-00280@example.com,inbound_web,"Santa Barbara, CA",2025-03-31,2025-04-15,Established Account,16,10415.0,2026-08-13,650.94,1
+WCUST-00281,Foundry Fitness,gym,John,Taylor,wcust-00281@example.com,inbound_web,"Los Angeles, CA",2026-02-17,,Lead,0,0.0,,,1
+WCUST-00282,Ember Suites,hotel,Hiroshi,Martin,wcust-00282@example.com,referral,"Los Angeles, CA",2025-04-06,2025-04-10,At-Risk,8,5808.0,2025-12-26,726.0,0
+WCUST-00283,Northside Coffee Co.,cafe,Maria,Patel,wcust-00283@example.com,cold_outreach,"New York, NY",2025-03-02,2025-03-13,Established Account,24,12370.0,2026-08-25,515.42,1
+WCUST-00284,Sunset Training Studio,gym,Elena,Jones,wcust-00284@example.com,inbound_web,"Los Angeles, CA",2025-01-13,2025-02-01,Churned,4,756.0,2025-07-21,189.0,1
+WCUST-00285,Harbor Gym,gym,Patricia,Wilson,wcust-00285@example.com,inbound_web,"Bay Area, CA",2026-04-26,,Lead,0,0.0,,,1
+WCUST-00286,Northside Cafe,cafe,Lisa,Clark,wcust-00286@example.com,referral,"Los Angeles, CA",2026-09-03,,Lead,0,0.0,,,1
+WCUST-00287,Meridian Espresso Bar,cafe,Robert,Chen,wcust-00287@example.com,cold_outreach,"Los Angeles, CA",2025-07-07,,Lead,0,0.0,,,1
+WCUST-00288,Elm Street Gym,gym,Carlos,Rodriguez,wcust-00288@example.com,referral,"Bay Area, CA",2026-01-09,2026-01-10,Active Account,5,840.0,2026-08-17,168.0,1
+WCUST-00289,Driftwood Athletic Club,gym,Noah,Chen,wcust-00289@example.com,inbound_web,"Austin, TX",2025-12-08,2025-12-27,Active Account,5,1026.0,2026-08-10,205.2,1
+WCUST-00290,Golden Hour Roasters,cafe,Noah,Jackson,wcust-00290@example.com,trade_show,"Los Angeles, CA",2026-03-11,2026-03-20,Active Account,5,2294.5,2026-06-18,458.9,1
+WCUST-00291,Blue Ridge Diner,restaurant,Andrew,Thomas,wcust-00291@example.com,referral,"Seattle, WA",2025-07-13,,Lead,0,0.0,,,1
+WCUST-00292,Bramble Fitness,gym,Susan,Taylor,wcust-00292@example.com,distributor_partner,"Bay Area, CA",2025-03-19,2025-04-14,Established Account,11,1823.0,2026-09-08,165.73,1
+WCUST-00293,Vantage Gym,gym,Elena,Harris,wcust-00293@example.com,inbound_web,"New York, NY",2024-06-27,,Lead,0,0.0,,,1
+WCUST-00294,Vantage Cafe,cafe,Carlos,Hernandez,wcust-00294@example.com,distributor_partner,"Seattle, WA",2025-07-19,2025-08-02,Established Account,20,9405.5,2026-09-07,470.27,1
+WCUST-00295,Meridian Roasters,cafe,Maria,Martin,wcust-00295@example.com,trade_show,"Bay Area, CA",2024-08-28,2024-08-31,Established Account,35,15154.5,2026-08-18,432.99,1
+WCUST-00296,Wildflower Grill,restaurant,Susan,Jones,wcust-00296@example.com,distributor_partner,"Santa Barbara, CA",2025-06-19,2025-07-03,Established Account,16,4780.0,2026-09-02,298.75,1
+WCUST-00297,Blue Ridge Bistro,restaurant,James,Martinez,wcust-00297@example.com,cold_outreach,"Los Angeles, CA",2024-08-28,2024-09-02,Churned,2,519.5,2024-09-27,259.75,1
+WCUST-00298,Lantern Cafe,cafe,Susan,Williams,wcust-00298@example.com,direct_relationship,"Los Angeles, CA",2024-04-22,2024-05-17,Established Account,43,18681.5,2026-08-29,434.45,0
+WCUST-00299,Ember Table,restaurant,Hiroshi,Clark,wcust-00299@example.com,referral,"Santa Barbara, CA",2024-08-25,2024-09-20,Established Account,27,7875.0,2026-08-27,291.67,1
+WCUST-00300,Cedar Eatery,restaurant,Sofia,Moore,wcust-00300@example.com,inbound_web,"New York, NY",2025-11-02,2025-11-08,Active Account,12,3472.0,2026-09-08,289.33,1
+WCUST-00301,Golden Hour Eatery,restaurant,Wei,Harris,wcust-00301@example.com,trade_show,"Austin, TX",2025-08-07,2025-08-26,Established Account,14,3924.0,2026-08-27,280.29,1
+WCUST-00302,Cedar Table,restaurant,Susan,Taylor,wcust-00302@example.com,trade_show,"Santa Barbara, CA",2025-05-19,2025-06-14,Established Account,16,4786.5,2026-08-26,299.16,1
+WCUST-00303,Silver Creek Espresso Bar,cafe,David,Kim,wcust-00303@example.com,referral,"New York, NY",2025-07-18,2025-07-21,Established Account,20,9283.0,2026-09-05,464.15,1
+WCUST-00304,Bramble Roasters,cafe,Diego,Sanchez,wcust-00304@example.com,direct_relationship,"New York, NY",2025-07-19,2025-07-28,At-Risk,7,3712.0,2025-11-23,530.29,1
+WCUST-00305,Elm Street Kitchen,restaurant,Jennifer,Wilson,wcust-00305@example.com,referral,"Seattle, WA",2025-06-16,2025-06-29,Established Account,17,5603.5,2026-09-09,329.62,1
+WCUST-00306,Maple Diner,restaurant,Andrew,Davis,wcust-00306@example.com,direct_relationship,"Bay Area, CA",2026-03-14,2026-04-08,Active Account,7,1903.0,2026-09-06,271.86,1
+WCUST-00307,Elm Street Table,restaurant,Daniel,Thompson,wcust-00307@example.com,referral,"Seattle, WA",2025-07-23,2025-07-23,Established Account,15,5033.0,2026-08-24,335.53,1
+WCUST-00308,Maple Lodge,hotel,Diego,Nguyen,wcust-00308@example.com,referral,"Santa Barbara, CA",2026-04-10,2026-05-08,Active Account,4,2496.0,2026-08-15,624.0,1
+WCUST-00309,Cedar Bistro,restaurant,Yuki,Moore,wcust-00309@example.com,inbound_web,"Bay Area, CA",2024-06-01,2024-06-13,Churned,15,5186.0,2025-07-31,345.73,1
+WCUST-00310,Sunset Athletic Club,gym,Maria,Thompson,wcust-00310@example.com,inbound_web,"Seattle, WA",2025-11-01,2025-11-11,Active Account,6,1008.0,2026-07-31,168.0,1
+WCUST-00311,Maple Diner,restaurant,Lisa,Taylor,wcust-00311@example.com,trade_show,"New York, NY",2026-03-22,2026-04-03,Active Account,6,1800.0,2026-08-27,300.0,1
+WCUST-00312,Blue Ridge Fitness,gym,Karen,Davis,wcust-00312@example.com,distributor_partner,"New York, NY",2024-05-17,2024-05-29,Established Account,16,2919.0,2026-09-03,182.44,1
+WCUST-00313,Silver Creek Inn,hotel,Richard,Lopez,wcust-00313@example.com,cold_outreach,"Seattle, WA",2026-01-23,2026-02-04,Active Account,6,3816.5,2026-08-20,636.08,1
+WCUST-00314,Silver Creek Cafe,cafe,Hiroshi,Anderson,wcust-00314@example.com,inbound_web,"Los Angeles, CA",2024-05-09,2024-06-04,Established Account,42,19452.0,2026-09-07,463.14,1
+WCUST-00315,Ember Lodge,hotel,John,Thomas,wcust-00315@example.com,cold_outreach,"Los Angeles, CA",2025-07-12,2025-07-28,Established Account,8,4929.5,2026-03-16,616.19,1
+WCUST-00316,Foundry Training Studio,gym,Linda,Wilson,wcust-00316@example.com,cold_outreach,"New York, NY",2024-10-21,2024-10-22,Established Account,14,2470.0,2026-09-03,176.43,1
+WCUST-00317,Copper Roasters,cafe,Lisa,Thompson,wcust-00317@example.com,referral,"Austin, TX",2025-12-06,2025-12-22,Active Account,12,5507.0,2026-09-03,458.92,1
+WCUST-00318,Silver Creek Lodge,hotel,David,Lee,wcust-00318@example.com,referral,"Los Angeles, CA",2025-02-22,2025-03-02,Established Account,16,9023.0,2026-08-30,563.94,1
+WCUST-00319,Harbor Coffee House,cafe,Karen,Williams,wcust-00319@example.com,direct_relationship,"New York, NY",2025-12-27,2026-01-20,Active Account,4,2059.0,2026-03-25,514.75,1
+WCUST-00320,Silver Creek Roasters,cafe,John,Anderson,wcust-00320@example.com,inbound_web,"New York, NY",2026-08-01,2026-08-03,New Account,3,1204.0,2026-09-09,401.33,0
+WCUST-00321,Foundry Table,restaurant,Noah,Patel,wcust-00321@example.com,referral,"Los Angeles, CA",2024-08-18,2024-09-09,At-Risk,15,5045.0,2025-11-09,336.33,1
+WCUST-00322,Harbor Espresso Bar,cafe,Thomas,Davis,wcust-00322@example.com,distributor_partner,"New York, NY",2024-11-13,2024-11-19,Established Account,32,16194.0,2026-08-20,506.06,1
+WCUST-00323,Harbor Coffee House,cafe,Daniel,Smith,wcust-00323@example.com,distributor_partner,"Austin, TX",2026-08-22,2026-08-29,New Account,1,336.0,2026-08-29,336.0,1
+WCUST-00324,Silver Creek Suites,hotel,James,Rodriguez,wcust-00324@example.com,direct_relationship,"New York, NY",2025-11-01,,Lead,0,0.0,,,1
+WCUST-00325,Ember Cafe,cafe,Diego,Brown,wcust-00325@example.com,direct_relationship,"Seattle, WA",2025-02-04,,Lead,0,0.0,,,1
+WCUST-00326,Meridian Espresso Bar,cafe,Andrew,Kim,wcust-00326@example.com,distributor_partner,"New York, NY",2025-03-29,2025-03-29,Churned,4,2100.0,2025-05-23,525.0,1
+WCUST-00327,Lantern Roasters,cafe,Diego,Harris,wcust-00327@example.com,cold_outreach,"Austin, TX",2026-06-16,2026-06-18,New Account,3,1260.0,2026-07-20,420.0,1
+WCUST-00328,Golden Hour Diner,restaurant,Susan,Chen,wcust-00328@example.com,trade_show,"Bay Area, CA",2024-12-03,2024-12-16,Established Account,17,5376.0,2026-03-22,316.24,1
+WCUST-00329,Driftwood Training Studio,gym,Thomas,Nguyen,wcust-00329@example.com,trade_show,"Los Angeles, CA",2024-11-03,,Lead,0,0.0,,,1
+WCUST-00330,Cedar Espresso Bar,cafe,Noah,Jackson,wcust-00330@example.com,referral,"Seattle, WA",2025-03-30,2025-04-02,Established Account,25,11904.0,2026-08-20,476.16,1
+WCUST-00331,Maple Gym,gym,Linda,Chen,wcust-00331@example.com,trade_show,"New York, NY",2024-03-14,2024-04-01,Churned,8,1558.0,2025-05-26,194.75,0
+WCUST-00332,Elm Street Lodge,hotel,Lisa,Thomas,wcust-00332@example.com,referral,"Los Angeles, CA",2025-04-13,2025-04-28,Established Account,14,7821.5,2026-08-26,558.68,1
+WCUST-00333,Silver Creek Lodge,hotel,Sofia,Chen,wcust-00333@example.com,referral,"Bay Area, CA",2025-09-26,2025-10-05,Active Account,11,6601.0,2026-08-21,600.09,1
+WCUST-00334,Cedar Bistro,restaurant,Lisa,Williams,wcust-00334@example.com,trade_show,"Santa Barbara, CA",2024-07-26,2024-08-03,Established Account,28,8637.0,2026-09-08,308.46,1
+WCUST-00335,Harbor Lodge,hotel,Richard,Clark,wcust-00335@example.com,referral,"Austin, TX",2026-06-15,2026-07-06,New Account,2,1008.0,2026-08-13,504.0,1
+WCUST-00336,Northside Table,restaurant,Elena,Anderson,wcust-00336@example.com,referral,"Portland, OR",2025-09-27,2025-09-29,Active Account,13,4198.5,2026-08-16,322.96,1
+WCUST-00337,Golden Hour Coffee Co.,cafe,Aisha,Rodriguez,wcust-00337@example.com,referral,"Portland, OR",2024-10-27,2024-10-29,Established Account,27,12772.5,2026-05-08,473.06,0
+WCUST-00338,Bramble Roasters,cafe,Robert,Rodriguez,wcust-00338@example.com,inbound_web,"Bay Area, CA",2024-10-23,2024-11-04,Churned,7,3666.0,2025-03-06,523.71,1
+WCUST-00339,Meridian Hotel,hotel,Linda,Kim,wcust-00339@example.com,referral,"Los Angeles, CA",2025-12-13,2026-01-08,Active Account,8,4897.0,2026-08-24,612.12,1
+WCUST-00340,Maple Bistro,restaurant,Patricia,Nguyen,wcust-00340@example.com,trade_show,"Bay Area, CA",2025-03-27,,Lead,0,0.0,,,1
+WCUST-00341,Northside Inn,hotel,Andrew,Brown,wcust-00341@example.com,referral,"Portland, OR",2025-08-23,2025-08-28,At-Risk,3,1344.0,2025-11-08,448.0,1
+WCUST-00342,Wildflower Table,restaurant,Richard,Thomas,wcust-00342@example.com,distributor_partner,"Los Angeles, CA",2026-06-27,2026-06-29,New Account,3,588.0,2026-08-22,196.0,1
+WCUST-00343,Driftwood Bistro,restaurant,Jennifer,Thompson,wcust-00343@example.com,cold_outreach,"Los Angeles, CA",2025-01-17,2025-01-28,Established Account,21,6406.5,2026-08-17,305.07,0
+WCUST-00344,Golden Hour Bistro,restaurant,Jennifer,Jones,wcust-00344@example.com,inbound_web,"Bay Area, CA",2025-12-26,2026-01-06,Active Account,9,2663.0,2026-08-17,295.89,1
+WCUST-00345,Lantern Espresso Bar,cafe,Robert,Wilson,wcust-00345@example.com,direct_relationship,"Seattle, WA",2024-10-10,2024-10-11,Established Account,34,16414.0,2026-09-06,482.76,1
+WCUST-00346,Sunset Bistro,restaurant,James,Smith,wcust-00346@example.com,referral,"Bay Area, CA",2025-11-29,2025-12-10,Active Account,11,3519.5,2026-09-02,319.95,0
+WCUST-00347,Copper Grill,restaurant,Michael,Williams,wcust-00347@example.com,inbound_web,"Bay Area, CA",2025-08-05,2025-08-10,Established Account,14,4327.0,2026-08-13,309.07,1
+WCUST-00348,Vantage Kitchen,restaurant,Noah,White,wcust-00348@example.com,inbound_web,"New York, NY",2026-03-20,2026-03-31,Active Account,7,2141.0,2026-09-04,305.86,1
+WCUST-00349,Ember Coffee Co.,cafe,Wei,Patel,wcust-00349@example.com,inbound_web,"Los Angeles, CA",2025-11-20,2025-12-20,Active Account,7,3474.0,2026-04-20,496.29,1
+WCUST-00350,Copper Diner,restaurant,Robert,Sanchez,wcust-00350@example.com,trade_show,"Los Angeles, CA",2025-09-06,2025-10-04,Active Account,13,4119.0,2026-09-08,316.85,1
+WCUST-00351,Sunset Coffee House,cafe,James,Williams,wcust-00351@example.com,inbound_web,"Austin, TX",2025-07-25,2025-08-19,Established Account,18,9212.0,2026-09-03,511.78,1
+WCUST-00352,Copper Coffee Co.,cafe,Amara,Jones,wcust-00352@example.com,cold_outreach,"Santa Barbara, CA",2026-02-27,2026-03-15,Active Account,10,5695.0,2026-09-04,569.5,1
+WCUST-00353,Vantage Athletic Club,gym,David,Lopez,wcust-00353@example.com,referral,"Seattle, WA",2026-02-04,2026-03-01,Active Account,4,672.0,2026-09-01,168.0,1
+WCUST-00354,Sunset Table,restaurant,James,Moore,wcust-00354@example.com,inbound_web,"Bay Area, CA",2024-01-10,2024-01-26,Established Account,33,9693.5,2026-08-07,293.74,1
+WCUST-00355,Driftwood Suites,hotel,Michael,Perez,wcust-00355@example.com,direct_relationship,"Bay Area, CA",2025-12-10,2026-01-09,Active Account,7,4234.0,2026-08-11,604.86,1
+WCUST-00356,Driftwood Fitness,gym,Daniel,Garcia,wcust-00356@example.com,trade_show,"Bay Area, CA",2025-10-07,2025-10-21,At-Risk,2,420.0,2025-12-28,210.0,1
+WCUST-00357,Lantern Coffee Co.,cafe,Amara,Martinez,wcust-00357@example.com,inbound_web,"Seattle, WA",2025-01-31,2025-02-07,At-Risk,17,7144.5,2026-01-16,420.26,1
+WCUST-00358,Bramble Bistro,restaurant,Richard,Thompson,wcust-00358@example.com,inbound_web,"Bay Area, CA",2026-03-16,2026-04-03,Active Account,2,504.0,2026-04-28,252.0,1
+WCUST-00359,Driftwood Table,restaurant,Susan,Brown,wcust-00359@example.com,trade_show,"Bay Area, CA",2025-02-12,,Lead,0,0.0,,,1
+WCUST-00360,Blue Ridge Grill,restaurant,James,Sanchez,wcust-00360@example.com,distributor_partner,"Bay Area, CA",2025-04-24,2025-05-21,Established Account,17,5648.0,2026-08-31,332.24,1
+WCUST-00361,Ironwood Coffee Co.,cafe,Susan,Davis,wcust-00361@example.com,referral,"Bay Area, CA",2024-08-13,2024-09-08,Established Account,35,17439.5,2026-08-29,498.27,1
+WCUST-00362,Harbor Hotel,hotel,Robert,Garcia,wcust-00362@example.com,cold_outreach,"New York, NY",2026-08-12,2026-08-24,New Account,1,756.0,2026-08-24,756.0,1
+WCUST-00363,Meridian Fitness,gym,Richard,White,wcust-00363@example.com,referral,"New York, NY",2026-09-08,,Lead,0,0.0,,,1
+WCUST-00364,Lantern Table,restaurant,Robert,Sanchez,wcust-00364@example.com,distributor_partner,"Los Angeles, CA",2026-03-06,,Lead,0,0.0,,,1
+WCUST-00365,Elm Street Hotel,hotel,Elizabeth,Lopez,wcust-00365@example.com,trade_show,"Seattle, WA",2026-01-02,2026-01-19,Active Account,7,4962.0,2026-08-18,708.86,1
+WCUST-00366,Driftwood Bistro,restaurant,Maria,White,wcust-00366@example.com,cold_outreach,"Los Angeles, CA",2025-01-13,2025-01-17,Established Account,23,6241.0,2026-08-15,271.35,1
+WCUST-00367,Copper Roasters,cafe,Thomas,Lee,wcust-00367@example.com,referral,"Los Angeles, CA",2024-01-30,2024-02-18,Established Account,45,20513.0,2026-08-23,455.84,1
+WCUST-00368,Copper Kitchen,restaurant,John,Nguyen,wcust-00368@example.com,referral,"Seattle, WA",2026-04-11,2026-04-25,Active Account,5,1190.0,2026-08-14,238.0,1
+WCUST-00369,Maple Training Studio,gym,Priya,Martin,wcust-00369@example.com,referral,"Los Angeles, CA",2025-10-24,,Lead,0,0.0,,,1
+WCUST-00370,Lantern Bistro,restaurant,Hiroshi,Smith,wcust-00370@example.com,distributor_partner,"New York, NY",2026-09-06,,Lead,0,0.0,,,1
+WCUST-00371,Silver Creek Grill,restaurant,Carlos,Lopez,wcust-00371@example.com,direct_relationship,"Los Angeles, CA",2024-03-19,,Lead,0,0.0,,,1
+WCUST-00372,Harbor Cafe,cafe,David,Lopez,wcust-00372@example.com,referral,"Los Angeles, CA",2024-08-20,2024-09-14,Established Account,36,16712.0,2026-09-04,464.22,1
+WCUST-00373,Sunset Coffee Co.,cafe,Daniel,Thomas,wcust-00373@example.com,distributor_partner,"Austin, TX",2025-01-17,2025-02-04,Established Account,32,15691.5,2026-09-08,490.36,1
+WCUST-00374,Elm Street Diner,restaurant,Jennifer,Moore,wcust-00374@example.com,trade_show,"New York, NY",2025-01-18,2025-01-29,Established Account,22,6786.0,2026-08-23,308.45,1
+WCUST-00375,Blue Ridge Diner,restaurant,Elizabeth,Harris,wcust-00375@example.com,trade_show,"Bay Area, CA",2024-09-10,2024-09-23,Established Account,25,6587.5,2026-08-25,263.5,1
+WCUST-00376,Meridian Roasters,cafe,Hiroshi,Hernandez,wcust-00376@example.com,direct_relationship,"New York, NY",2026-03-11,2026-03-20,Active Account,3,1659.0,2026-04-28,553.0,1
+WCUST-00377,Ember Kitchen,restaurant,David,Nguyen,wcust-00377@example.com,referral,"New York, NY",2024-08-20,2024-08-27,Churned,15,3499.0,2025-09-06,233.27,1
+WCUST-00378,Sunset Training Studio,gym,Patricia,Williams,wcust-00378@example.com,referral,"Bay Area, CA",2025-06-25,2025-07-23,Established Account,8,1344.0,2026-09-08,168.0,0
+WCUST-00379,Maple Lodge,hotel,Jessica,Nguyen,wcust-00379@example.com,referral,"Bay Area, CA",2024-08-11,,Lead,0,0.0,,,1
+WCUST-00380,Ironwood Bistro,restaurant,Michael,Davis,wcust-00380@example.com,cold_outreach,"New York, NY",2026-01-11,2026-02-10,Active Account,8,2169.0,2026-08-18,271.12,1
+WCUST-00381,Bramble Table,restaurant,David,Jackson,wcust-00381@example.com,trade_show,"New York, NY",2025-06-22,2025-07-14,Established Account,16,4177.5,2026-08-27,261.09,1
+WCUST-00382,Blue Ridge Coffee House,cafe,Amara,Brown,wcust-00382@example.com,inbound_web,"Bay Area, CA",2026-05-20,2026-06-15,New Account,2,966.0,2026-07-07,483.0,1
+WCUST-00383,Blue Ridge Suites,hotel,Priya,Anderson,wcust-00383@example.com,inbound_web,"Seattle, WA",2026-07-20,2026-08-11,New Account,1,837.0,2026-08-11,837.0,1
+WCUST-00384,Lantern Roasters,cafe,Jessica,Patel,wcust-00384@example.com,cold_outreach,"Bay Area, CA",2025-08-14,,Lead,0,0.0,,,1
+WCUST-00385,Harbor Coffee House,cafe,John,Rodriguez,wcust-00385@example.com,cold_outreach,"New York, NY",2025-01-13,2025-01-23,Established Account,29,13911.0,2026-09-08,479.69,1
+WCUST-00386,Golden Hour Diner,restaurant,Diego,Harris,wcust-00386@example.com,trade_show,"New York, NY",2026-07-19,2026-08-07,New Account,2,630.5,2026-09-06,315.25,1
+WCUST-00387,Bramble Roasters,cafe,Jennifer,Chen,wcust-00387@example.com,inbound_web,"Los Angeles, CA",2025-05-08,2025-05-20,Established Account,24,12614.0,2026-09-07,525.58,1
+WCUST-00388,Foundry Grill,restaurant,Robert,Thompson,wcust-00388@example.com,trade_show,"New York, NY",2026-09-03,,Lead,0,0.0,,,1
+WCUST-00389,Horizon Cafe,cafe,Linda,Chen,wcust-00389@example.com,distributor_partner,"Los Angeles, CA",2025-01-16,2025-01-17,Established Account,28,13796.0,2026-08-28,492.71,1
+WCUST-00390,Northside Coffee House,cafe,Yuki,Kim,wcust-00390@example.com,referral,"Portland, OR",2026-05-20,2026-06-10,Active Account,5,2184.0,2026-08-29,436.8,1
+WCUST-00391,Driftwood Roasters,cafe,Diego,Patel,wcust-00391@example.com,cold_outreach,"Seattle, WA",2025-05-12,2025-06-07,Established Account,22,10574.0,2026-08-23,480.64,0
+WCUST-00392,Maple Inn,hotel,Sofia,Smith,wcust-00392@example.com,referral,"Austin, TX",2025-10-11,2025-10-24,Active Account,10,6017.5,2026-09-05,601.75,1
+WCUST-00393,Maple Suites,hotel,Fatima,Brown,wcust-00393@example.com,trade_show,"Seattle, WA",2025-10-17,2025-11-05,Active Account,10,5810.0,2026-08-26,581.0,1
+WCUST-00394,Golden Hour Coffee House,cafe,Lisa,Martin,wcust-00394@example.com,referral,"Bay Area, CA",2025-02-17,2025-03-01,At-Risk,13,5584.0,2025-11-02,429.54,1
+WCUST-00395,Meridian Table,restaurant,Sofia,Sanchez,wcust-00395@example.com,trade_show,"Bay Area, CA",2026-03-01,2026-03-03,Active Account,7,2062.0,2026-09-04,294.57,1
+WCUST-00396,Ember Lodge,hotel,Michael,Wilson,wcust-00396@example.com,inbound_web,"New York, NY",2026-07-04,2026-08-02,New Account,1,420.0,2026-08-02,420.0,1
+WCUST-00397,Elm Street Bistro,restaurant,Karen,Davis,wcust-00397@example.com,cold_outreach,"Bay Area, CA",2025-06-27,2025-07-05,Established Account,18,5035.5,2026-09-06,279.75,1
+WCUST-00398,Bramble Bistro,restaurant,Diego,Moore,wcust-00398@example.com,cold_outreach,"Los Angeles, CA",2024-01-15,2024-01-21,Churned,15,4067.0,2025-03-13,271.13,1
+WCUST-00399,Foundry Table,restaurant,Linda,Sanchez,wcust-00399@example.com,direct_relationship,"Los Angeles, CA",2025-03-19,2025-03-30,Churned,5,1764.0,2025-07-16,352.8,1
+WCUST-00400,Driftwood Hotel,hotel,James,Thomas,wcust-00400@example.com,referral,"Los Angeles, CA",2026-03-02,2026-03-24,Active Account,5,2940.0,2026-08-11,588.0,1
+WCUST-00401,Driftwood Kitchen,restaurant,Noah,Martinez,wcust-00401@example.com,trade_show,"New York, NY",2025-02-28,2025-03-28,Established Account,19,5759.0,2026-08-15,303.11,1
+WCUST-00402,Elm Street Suites,hotel,Sofia,Thompson,wcust-00402@example.com,direct_relationship,"Bay Area, CA",2025-08-16,2025-08-23,Established Account,11,6898.0,2026-08-17,627.09,1
+WCUST-00403,Ember Athletic Club,gym,Jessica,Thomas,wcust-00403@example.com,inbound_web,"New York, NY",2024-11-26,,Lead,0,0.0,,,1
+WCUST-00404,Northside Diner,restaurant,Aisha,Harris,wcust-00404@example.com,cold_outreach,"Bay Area, CA",2024-11-27,2024-12-02,Established Account,24,7343.0,2026-08-15,305.96,1
+WCUST-00405,Elm Street Bistro,restaurant,Fatima,Jones,wcust-00405@example.com,trade_show,"Los Angeles, CA",2025-12-20,2025-12-29,Active Account,4,1260.0,2026-03-25,315.0,1
+WCUST-00406,Wildflower Grill,restaurant,Andrew,Martin,wcust-00406@example.com,referral,"Los Angeles, CA",2024-09-11,2024-09-26,Established Account,26,8352.5,2026-08-19,321.25,1
+WCUST-00407,Silver Creek Roasters,cafe,Fatima,Garcia,wcust-00407@example.com,trade_show,"Los Angeles, CA",2025-03-05,2025-03-31,Established Account,26,13203.5,2026-09-03,507.83,1
+WCUST-00408,Vantage Eatery,restaurant,Karen,Perez,wcust-00408@example.com,cold_outreach,"New York, NY",2025-01-02,2025-01-09,Established Account,21,6005.0,2026-08-21,285.95,1
+WCUST-00409,Golden Hour Table,restaurant,Daniel,Williams,wcust-00409@example.com,cold_outreach,"Seattle, WA",2025-06-14,2025-06-19,Established Account,17,4697.0,2026-08-25,276.29,1
+WCUST-00410,Maple Athletic Club,gym,Wei,Anderson,wcust-00410@example.com,cold_outreach,"Seattle, WA",2024-11-28,2024-12-04,Established Account,13,1960.0,2026-08-14,150.77,0
+WCUST-00411,Foundry Eatery,restaurant,Linda,Lee,wcust-00411@example.com,distributor_partner,"Bay Area, CA",2024-02-09,2024-03-08,Established Account,34,10204.0,2026-08-24,300.12,1
+WCUST-00412,Sunset Eatery,restaurant,Noah,Jackson,wcust-00412@example.com,inbound_web,"Austin, TX",2026-08-28,,Lead,0,0.0,,,1
+WCUST-00413,Ember Coffee Co.,cafe,Priya,Lopez,wcust-00413@example.com,distributor_partner,"Portland, OR",2025-09-17,2025-10-15,Active Account,11,5335.0,2026-06-02,485.0,1
+WCUST-00414,Sunset Cafe,cafe,Andrew,Williams,wcust-00414@example.com,inbound_web,"New York, NY",2026-07-06,2026-07-14,New Account,3,1512.0,2026-08-26,504.0,1
+WCUST-00415,Foundry Roasters,cafe,Jessica,Garcia,wcust-00415@example.com,referral,"Seattle, WA",2026-07-29,2026-08-15,New Account,2,938.0,2026-09-02,469.0,1
+WCUST-00416,Wildflower Training Studio,gym,Hiroshi,Johnson,wcust-00416@example.com,direct_relationship,"Los Angeles, CA",2026-03-26,2026-04-13,Active Account,3,396.0,2026-07-24,132.0,1
+WCUST-00417,Ironwood Grill,restaurant,Michael,Clark,wcust-00417@example.com,distributor_partner,"Santa Barbara, CA",2026-01-19,2026-02-03,Active Account,8,2310.0,2026-08-15,288.75,1
+WCUST-00418,Silver Creek Bistro,restaurant,Thomas,Lee,wcust-00418@example.com,distributor_partner,"Bay Area, CA",2024-06-26,,Lead,0,0.0,,,1
+WCUST-00419,Golden Hour Lodge,hotel,Sofia,Johnson,wcust-00419@example.com,cold_outreach,"New York, NY",2026-07-14,2026-08-02,New Account,2,1470.0,2026-08-31,735.0,1
+WCUST-00420,Golden Hour Eatery,restaurant,Yuki,Moore,wcust-00420@example.com,cold_outreach,"Bay Area, CA",2026-08-24,,Lead,0,0.0,,,1
+WCUST-00421,Harbor Cafe,cafe,Fatima,Clark,wcust-00421@example.com,referral,"Los Angeles, CA",2025-08-10,2025-09-05,Established Account,16,7379.0,2026-06-09,461.19,1
+WCUST-00422,Sunset Athletic Club,gym,Maria,Jackson,wcust-00422@example.com,trade_show,"Austin, TX",2026-02-02,2026-02-17,Active Account,4,588.0,2026-08-09,147.0,1
+WCUST-00423,Northside Eatery,restaurant,Elena,Jones,wcust-00423@example.com,cold_outreach,"Austin, TX",2024-12-01,2024-12-18,Established Account,24,7192.5,2026-08-13,299.69,1
+WCUST-00424,Cedar Table,restaurant,Yuki,Smith,wcust-00424@example.com,inbound_web,"New York, NY",2026-05-29,,Lead,0,0.0,,,1
+WCUST-00425,Wildflower Lodge,hotel,Amara,Williams,wcust-00425@example.com,cold_outreach,"Seattle, WA",2025-10-10,2025-10-15,Active Account,10,6426.0,2026-08-14,642.6,1
+WCUST-00426,Vantage Coffee House,cafe,Maria,Lee,wcust-00426@example.com,direct_relationship,"Los Angeles, CA",2026-01-20,2026-02-15,Active Account,8,3933.0,2026-07-22,491.62,1
+WCUST-00427,Meridian Grill,restaurant,David,Johnson,wcust-00427@example.com,distributor_partner,"Seattle, WA",2024-11-26,,Lead,0,0.0,,,1
+WCUST-00428,Elm Street Espresso Bar,cafe,Jennifer,Johnson,wcust-00428@example.com,referral,"Portland, OR",2025-07-16,2025-07-18,At-Risk,8,3027.0,2025-11-29,378.38,1
+WCUST-00429,Maple Cafe,cafe,Daniel,Smith,wcust-00429@example.com,trade_show,"New York, NY",2026-02-04,2026-02-28,Active Account,3,1119.0,2026-04-04,373.0,1
+WCUST-00430,Wildflower Lodge,hotel,Elena,Lopez,wcust-00430@example.com,trade_show,"Seattle, WA",2025-11-30,2025-12-18,At-Risk,3,2181.0,2026-02-26,727.0,1
+WCUST-00431,Harbor Roasters,cafe,Linda,Thomas,wcust-00431@example.com,referral,"Bay Area, CA",2024-05-23,2024-06-18,Established Account,40,18923.0,2026-09-09,473.07,1
+WCUST-00432,Sunset Grill,restaurant,Elizabeth,Moore,wcust-00432@example.com,cold_outreach,"New York, NY",2026-03-06,,Lead,0,0.0,,,1
+WCUST-00433,Lantern Gym,gym,Carlos,Harris,wcust-00433@example.com,direct_relationship,"Los Angeles, CA",2024-10-09,,Lead,0,0.0,,,1
+WCUST-00434,Maple Grill,restaurant,Maria,Hernandez,wcust-00434@example.com,referral,"Seattle, WA",2025-02-24,2025-03-25,Established Account,19,4703.5,2026-09-02,247.55,1
+WCUST-00435,Golden Hour Bistro,restaurant,Robert,White,wcust-00435@example.com,referral,"Santa Barbara, CA",2024-08-06,2024-08-28,Established Account,27,7787.0,2026-08-25,288.41,1
+WCUST-00436,Cedar Grill,restaurant,Elizabeth,Hernandez,wcust-00436@example.com,inbound_web,"Bay Area, CA",2026-05-15,2026-06-10,Active Account,4,1471.5,2026-08-26,367.88,1
+WCUST-00437,Lantern Inn,hotel,Fatima,Harris,wcust-00437@example.com,inbound_web,"New York, NY",2026-07-04,2026-07-24,New Account,2,1596.0,2026-08-26,798.0,1
+WCUST-00438,Bramble Coffee House,cafe,James,Nguyen,wcust-00438@example.com,trade_show,"Los Angeles, CA",2024-08-14,2024-09-08,Established Account,37,16863.5,2026-09-03,455.77,1
+WCUST-00439,Driftwood Roasters,cafe,James,Thomas,wcust-00439@example.com,inbound_web,"Los Angeles, CA",2024-12-29,2025-01-10,Established Account,30,14503.0,2026-08-19,483.43,1
+WCUST-00440,Golden Hour Cafe,cafe,Priya,Smith,wcust-00440@example.com,inbound_web,"Bay Area, CA",2023-11-20,2023-12-05,Churned,10,4200.0,2024-06-12,420.0,1
+WCUST-00441,Wildflower Table,restaurant,Priya,Smith,wcust-00441@example.com,inbound_web,"Bay Area, CA",2024-12-25,2025-01-14,Established Account,20,6258.0,2026-08-25,312.9,1
+WCUST-00442,Foundry Roasters,cafe,Carlos,Garcia,wcust-00442@example.com,distributor_partner,"Bay Area, CA",2026-07-29,2026-07-31,New Account,2,1092.0,2026-08-23,546.0,1
+WCUST-00443,Elm Street Hotel,hotel,Aisha,Miller,wcust-00443@example.com,direct_relationship,"Los Angeles, CA",2025-06-26,2025-07-25,Established Account,11,6878.5,2026-08-11,625.32,1
+WCUST-00444,Ember Bistro,restaurant,David,Moore,wcust-00444@example.com,distributor_partner,"Seattle, WA",2026-06-26,2026-07-18,New Account,2,522.0,2026-08-20,261.0,1
+WCUST-00445,Wildflower Hotel,hotel,Carlos,Rodriguez,wcust-00445@example.com,inbound_web,"New York, NY",2025-01-31,2025-02-20,Established Account,16,10593.0,2026-08-11,662.06,1
+WCUST-00446,Wildflower Cafe,cafe,Thomas,Moore,wcust-00446@example.com,trade_show,"New York, NY",2025-04-08,2025-04-08,Established Account,23,10838.5,2026-08-20,471.24,1
+WCUST-00447,Copper Table,restaurant,Noah,Hernandez,wcust-00447@example.com,cold_outreach,"Los Angeles, CA",2026-03-22,2026-04-03,Active Account,7,2441.0,2026-09-02,348.71,1
+WCUST-00448,Maple Coffee Co.,cafe,John,Johnson,wcust-00448@example.com,inbound_web,"Los Angeles, CA",2024-03-31,2024-04-14,Established Account,45,22559.0,2026-09-05,501.31,0
+WCUST-00449,Foundry Grill,restaurant,Elena,Hernandez,wcust-00449@example.com,inbound_web,"Seattle, WA",2026-01-19,2026-01-29,Active Account,10,2963.5,2026-09-07,296.35,1
+WCUST-00450,Elm Street Table,restaurant,Jennifer,Davis,wcust-00450@example.com,trade_show,"New York, NY",2025-11-30,2025-12-23,Active Account,10,3420.5,2026-09-02,342.05,1
+WCUST-00451,Bramble Grill,restaurant,Elizabeth,Rodriguez,wcust-00451@example.com,referral,"Seattle, WA",2024-12-08,,Lead,0,0.0,,,1
+WCUST-00452,Ember Kitchen,restaurant,Amara,Garcia,wcust-00452@example.com,direct_relationship,"Los Angeles, CA",2026-03-14,2026-03-27,Active Account,7,2061.0,2026-09-09,294.43,1
+WCUST-00453,Northside Kitchen,restaurant,Fatima,Lopez,wcust-00453@example.com,inbound_web,"Los Angeles, CA",2026-07-21,2026-08-13,New Account,1,336.0,2026-08-13,336.0,0
+WCUST-00454,Northside Gym,gym,Sofia,Wilson,wcust-00454@example.com,cold_outreach,"Bay Area, CA",2024-10-16,2024-10-18,Established Account,13,2547.0,2026-08-15,195.92,1
+WCUST-00455,Ember Lodge,hotel,Sofia,Perez,wcust-00455@example.com,referral,"Bay Area, CA",2025-10-03,2025-10-16,Active Account,10,5745.0,2026-08-28,574.5,1
+WCUST-00456,Ember Diner,restaurant,Noah,Harris,wcust-00456@example.com,trade_show,"Austin, TX",2024-09-01,2024-09-28,Established Account,26,8036.5,2026-08-25,309.1,1
+WCUST-00457,Driftwood Coffee House,cafe,Robert,Thompson,wcust-00457@example.com,referral,"Bay Area, CA",2024-07-21,2024-08-05,Established Account,38,19174.5,2026-08-30,504.59,1
+WCUST-00458,Ember Diner,restaurant,Thomas,Perez,wcust-00458@example.com,distributor_partner,"Bay Area, CA",2024-12-04,2024-12-24,Established Account,23,7356.0,2026-09-05,319.83,0
+WCUST-00459,Vantage Bistro,restaurant,Maria,Jones,wcust-00459@example.com,inbound_web,"New York, NY",2024-11-19,2024-12-07,Established Account,23,8074.5,2026-09-08,351.07,1
+WCUST-00460,Vantage Lodge,hotel,Michael,Clark,wcust-00460@example.com,referral,"Bay Area, CA",2025-06-21,,Lead,0,0.0,,,1
+WCUST-00461,Blue Ridge Gym,gym,Priya,Martinez,wcust-00461@example.com,inbound_web,"Seattle, WA",2024-12-19,2025-01-12,Established Account,11,2109.0,2026-07-04,191.73,1
+WCUST-00462,Elm Street Fitness,gym,Yuki,Sanchez,wcust-00462@example.com,distributor_partner,"Santa Barbara, CA",2025-04-14,2025-05-14,Established Account,8,1403.0,2026-07-14,175.38,1
+WCUST-00463,Golden Hour Coffee Co.,cafe,Sofia,Taylor,wcust-00463@example.com,trade_show,"Los Angeles, CA",2026-08-20,,Lead,0,0.0,,,1
+WCUST-00464,Silver Creek Fitness,gym,Amara,Miller,wcust-00464@example.com,inbound_web,"Seattle, WA",2025-02-28,,Lead,0,0.0,,,1
+WCUST-00465,Bramble Lodge,hotel,Thomas,Lee,wcust-00465@example.com,referral,"Bay Area, CA",2026-04-10,2026-04-29,Active Account,1,588.0,2026-04-29,588.0,1
+WCUST-00466,Maple Inn,hotel,Susan,Martinez,wcust-00466@example.com,cold_outreach,"New York, NY",2024-01-29,2024-02-22,Established Account,27,17520.0,2026-08-15,648.89,1
+WCUST-00467,Copper Coffee House,cafe,Carlos,Martinez,wcust-00467@example.com,distributor_partner,"New York, NY",2024-06-01,2024-06-30,At-Risk,27,12652.0,2025-12-22,468.59,1
+WCUST-00468,Elm Street Espresso Bar,cafe,Carlos,Brown,wcust-00468@example.com,trade_show,"Los Angeles, CA",2024-09-01,2024-09-16,Established Account,36,17853.0,2026-09-02,495.92,1
+WCUST-00469,Bramble Coffee House,cafe,Sofia,Clark,wcust-00469@example.com,distributor_partner,"New York, NY",2025-11-03,2025-11-04,Active Account,15,6436.0,2026-08-30,429.07,1
+WCUST-00470,Vantage Kitchen,restaurant,Andrew,Davis,wcust-00470@example.com,trade_show,"Bay Area, CA",2025-10-29,2025-11-22,Active Account,11,3093.0,2026-08-15,281.18,1
+WCUST-00471,Vantage Gym,gym,Diego,Chen,wcust-00471@example.com,inbound_web,"Seattle, WA",2025-02-11,2025-02-21,Established Account,11,2127.0,2026-08-21,193.36,1
+WCUST-00472,Horizon Cafe,cafe,Susan,Moore,wcust-00472@example.com,referral,"Bay Area, CA",2024-12-06,2024-12-13,Established Account,31,14037.0,2026-08-26,452.81,1
+WCUST-00473,Elm Street Diner,restaurant,Daniel,Clark,wcust-00473@example.com,referral,"Seattle, WA",2025-09-30,2025-10-03,At-Risk,6,1770.0,2026-02-15,295.0,1
+WCUST-00474,Sunset Roasters,cafe,Yuki,Chen,wcust-00474@example.com,distributor_partner,"Los Angeles, CA",2025-10-18,2025-11-12,Active Account,15,7066.0,2026-08-29,471.07,0
+WCUST-00475,Ember Gym,gym,Diego,Taylor,wcust-00475@example.com,direct_relationship,"New York, NY",2024-05-20,2024-05-29,Established Account,17,2965.0,2026-08-19,174.41,1
+WCUST-00476,Elm Street Inn,hotel,Richard,Wilson,wcust-00476@example.com,inbound_web,"Austin, TX",2024-11-25,2024-12-21,Established Account,18,11414.0,2026-08-29,634.11,1
+WCUST-00477,Horizon Diner,restaurant,Amara,Anderson,wcust-00477@example.com,referral,"Seattle, WA",2026-07-31,2026-08-14,New Account,1,420.0,2026-08-14,420.0,0
+WCUST-00478,Blue Ridge Lodge,hotel,Elizabeth,Hernandez,wcust-00478@example.com,inbound_web,"Los Angeles, CA",2025-06-22,2025-07-19,Established Account,14,7408.0,2026-09-04,529.14,1
+WCUST-00479,Golden Hour Athletic Club,gym,Andrew,Miller,wcust-00479@example.com,distributor_partner,"Bay Area, CA",2026-06-21,2026-06-24,New Account,2,363.0,2026-08-03,181.5,1
+WCUST-00480,Vantage Diner,restaurant,Patricia,Moore,wcust-00480@example.com,distributor_partner,"Seattle, WA",2025-02-27,2025-03-14,Established Account,20,6420.0,2026-09-09,321.0,0
+WCUST-00481,Vantage Athletic Club,gym,John,Martin,wcust-00481@example.com,direct_relationship,"New York, NY",2026-06-06,2026-07-01,New Account,2,336.0,2026-09-05,168.0,1
+WCUST-00482,Northside Eatery,restaurant,Jennifer,Anderson,wcust-00482@example.com,distributor_partner,"Portland, OR",2026-08-13,,Lead,0,0.0,,,1
+WCUST-00483,Foundry Kitchen,restaurant,Hiroshi,Smith,wcust-00483@example.com,trade_show,"Los Angeles, CA",2025-12-05,2025-12-29,Active Account,10,2954.0,2026-09-04,295.4,1
+WCUST-00484,Elm Street Table,restaurant,Lisa,Lopez,wcust-00484@example.com,trade_show,"Bay Area, CA",2024-05-19,2024-05-20,Established Account,29,8996.0,2026-09-03,310.21,1
+WCUST-00485,Ironwood Lodge,hotel,Lisa,Lopez,wcust-00485@example.com,cold_outreach,"New York, NY",2025-11-14,2025-11-17,Active Account,9,5869.5,2026-08-19,652.17,1
+WCUST-00486,Cedar Fitness,gym,Carlos,Chen,wcust-00486@example.com,direct_relationship,"Los Angeles, CA",2024-06-21,2024-06-27,Established Account,15,2822.0,2026-08-28,188.13,1
+WCUST-00487,Vantage Suites,hotel,Diego,Patel,wcust-00487@example.com,inbound_web,"Bay Area, CA",2026-02-18,2026-03-04,Active Account,6,2898.0,2026-08-13,483.0,0
+WCUST-00488,Harbor Coffee House,cafe,Maria,Thompson,wcust-00488@example.com,distributor_partner,"Santa Barbara, CA",2025-07-25,2025-08-09,Established Account,21,10962.0,2026-09-07,522.0,1
+WCUST-00489,Maple Diner,restaurant,Andrew,Anderson,wcust-00489@example.com,referral,"Los Angeles, CA",2025-08-23,2025-08-23,At-Risk,4,1505.0,2025-11-11,376.25,1
+WCUST-00490,Blue Ridge Eatery,restaurant,Linda,Garcia,wcust-00490@example.com,referral,"New York, NY",2024-05-01,2024-05-24,Established Account,30,8650.0,2026-09-06,288.33,1
+WCUST-00491,Northside Coffee Co.,cafe,Jennifer,Anderson,wcust-00491@example.com,inbound_web,"Los Angeles, CA",2025-11-26,2025-12-23,Active Account,9,4728.0,2026-06-24,525.33,0
+WCUST-00492,Foundry Table,restaurant,Elena,Garcia,wcust-00492@example.com,referral,"New York, NY",2026-03-05,2026-03-09,Active Account,6,1652.0,2026-07-24,275.33,1
+WCUST-00493,Northside Cafe,cafe,Noah,Thomas,wcust-00493@example.com,referral,"Bay Area, CA",2025-08-27,2025-08-28,Established Account,20,8671.0,2026-09-07,433.55,1
+WCUST-00494,Lantern Roasters,cafe,Susan,Perez,wcust-00494@example.com,cold_outreach,"Bay Area, CA",2024-05-11,2024-05-31,Established Account,39,17656.0,2026-08-23,452.72,1
+WCUST-00495,Bramble Gym,gym,Yuki,Nguyen,wcust-00495@example.com,inbound_web,"Santa Barbara, CA",2025-12-17,2026-01-15,Active Account,5,1134.0,2026-08-23,226.8,1
+WCUST-00496,Lantern Grill,restaurant,Robert,Lopez,wcust-00496@example.com,inbound_web,"New York, NY",2026-06-19,2026-07-12,New Account,3,924.0,2026-08-29,308.0,1
+WCUST-00497,Horizon Coffee House,cafe,David,Smith,wcust-00497@example.com,referral,"New York, NY",2025-08-13,2025-08-31,Established Account,18,10537.0,2026-09-05,585.39,0
+WCUST-00498,Meridian Hotel,hotel,Patricia,Martinez,wcust-00498@example.com,trade_show,"New York, NY",2026-08-24,,Lead,0,0.0,,,1
+WCUST-00499,Harbor Espresso Bar,cafe,Elizabeth,Williams,wcust-00499@example.com,trade_show,"New York, NY",2026-07-30,2026-08-15,New Account,2,1022.0,2026-09-04,511.0,1
+WCUST-00500,Sunset Hotel,hotel,Robert,Taylor,wcust-00500@example.com,cold_outreach,"Bay Area, CA",2026-02-26,2026-03-20,Active Account,3,2030.0,2026-05-15,676.67,1
