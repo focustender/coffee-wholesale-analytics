@@ -12,12 +12,12 @@ Nothing here is real. Company names, emails, and order history are fabricated. P
 
 - **The dataset** (`data/`): a generator script and validator, both plain Python with no dependencies beyond the standard library. Full design rationale, including why the lifecycle stages are defined the way they are and how pricing was benchmarked, is in `docs/superpowers/specs/2026-09-09-coffee-wholesale-synthetic-dataset-design.md`.
 - **Follow-on analysis** (`analysis/`): cohort retention by signup quarter, order frequency and lifetime value by business type and acquisition channel, origin popularity, and growth vectors. This is what turned up the strongest finding so far: business type predicts account value far better than acquisition channel does (cafes are worth roughly 6.7x what gyms are worth over their lifetime).
-- **A real Salesforce connection** (`integrations/`): a small REST client authenticated through the Salesforce CLI rather than hardcoded credentials, built to be reusable in future projects, not just this one. Setup instructions are in `docs/reference/salesforce-cli-setup.md`.
+- **Real Salesforce, HubSpot, and Shopify connections** (`integrations/`): thin REST/GraphQL clients authenticated through each platform's own CLI or API credentials rather than hardcoded tokens, built to be reusable in future projects, not just this one. Setup instructions are in `docs/reference/salesforce-cli-setup.md`, `hubspot-api-setup.md`, and `shopify-api-setup.md`.
+- **A cross-system lifecycle reconciliation** (`analysis/reconcile_hubspot.py`): all 500 synthetic accounts are seeded as real contacts in a HubSpot test portal and as real customers in a Shopify dev store. Comparing HubSpot's lifecyclestage against what the order data actually shows turns up the same kind of gap the Trade Signal project found: 45 of 500 contacts (9%) still read "customer" in HubSpot despite having gone quiet or dropped off entirely, because lifecyclestage gets set once on first sale and is never revisited. `analysis/reconcile_lifecycle.py` is a generic version of that diff, reusable for any future project that needs to check a CRM's recorded status against a source of truth.
 
 ## What's next
 
-- Seeding the dataset into HubSpot and Shopify, the same way it's already connected to Salesforce.
-- A lifecycle-stage reconciliation across systems: does what a CRM says about an account match what the order data actually shows? That mismatch, when it shows up, tends to be the most useful finding in a project like this.
+- Shopify integration currently covers customers only; order-level seeding would need the draft-order-complete flow rather than a plain create (see `docs/reference/shopify-api-setup.md`).
 
 ## Running it
 
@@ -25,4 +25,9 @@ Nothing here is real. Company names, emails, and order history are fabricated. P
 python3 data/generate_dataset.py         # builds the 500-account dataset
 python3 data/validate_dataset.py         # checks it for integrity
 python3 analysis/follow_on_analysis.py   # runs the follow-on EDA
+python3 integrations/seed_hubspot.py     # seeds contacts into a real HubSpot portal
+python3 integrations/seed_shopify.py     # seeds customers into a real Shopify store
+python3 analysis/reconcile_hubspot.py    # checks HubSpot's lifecyclestage against ground truth
 ```
+
+The three `integrations/` and `reconcile_hubspot.py` commands need real credentials set up first — see `docs/reference/hubspot-api-setup.md` and `shopify-api-setup.md`.
