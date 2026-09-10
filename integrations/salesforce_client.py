@@ -14,6 +14,7 @@ Requires: `requests` (pip install requests). The `sf` CLI must be on PATH.
 
 import json
 import subprocess
+import time
 
 import requests
 
@@ -22,6 +23,31 @@ API_VERSION = "v67.0"
 
 class SalesforceAuthError(RuntimeError):
     pass
+
+
+def _request(method, path, target_org, **kwargs):
+    """Shared request path for query/create/update, so rate-limit handling
+    lives in one place. Salesforce signals its per-org API limit as a 403
+    with errorCode REQUEST_LIMIT_EXCEEDED, not a 429 -- checked explicitly
+    rather than copying HubSpot's 429 check, which would never fire here."""
+    instance_url, access_token = _get_session(target_org)
+    headers = {"Authorization": f"Bearer {access_token}"}
+    if method != "GET":
+        headers["Content-Type"] = "application/json"
+    url = f"{instance_url}{path}"
+    resp = requests.request(method, url, headers=headers, **kwargs)
+
+    if resp.status_code == 403:
+        try:
+            body = resp.json()
+        except ValueError:
+            body = []
+        if body and body[0].get("errorCode") == "REQUEST_LIMIT_EXCEEDED":
+            time.sleep(1)
+            resp = requests.request(method, url, headers=headers, **kwargs)
+
+    resp.raise_for_status()
+    return resp
 
 
 def _get_session(target_org):
@@ -54,37 +80,20 @@ def _get_session(target_org):
 
 def query(soql, target_org):
     """Run a SOQL query, return the list of records."""
-    instance_url, access_token = _get_session(target_org)
-    resp = requests.get(
-        f"{instance_url}/services/data/{API_VERSION}/query",
-        params={"q": soql},
-        headers={"Authorization": f"Bearer {access_token}"},
-    )
-    resp.raise_for_status()
+    resp = _request("GET", f"/services/data/{API_VERSION}/query", target_org, params={"q": soql})
     return resp.json()["records"]
 
 
 def create(sobject, fields, target_org):
     """Create one record of the given sobject type (e.g. 'Account')."""
-    instance_url, access_token = _get_session(target_org)
-    resp = requests.post(
-        f"{instance_url}/services/data/{API_VERSION}/sobjects/{sobject}",
-        json=fields,
-        headers={"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"},
-    )
-    resp.raise_for_status()
+    resp = _request("POST", f"/services/data/{API_VERSION}/sobjects/{sobject}", target_org, json=fields)
     return resp.json()
 
 
 def update(sobject, record_id, fields, target_org):
     """Update one existing record by Id. Returns True on success."""
-    instance_url, access_token = _get_session(target_org)
-    resp = requests.patch(
-        f"{instance_url}/services/data/{API_VERSION}/sobjects/{sobject}/{record_id}",
-        json=fields,
-        headers={"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"},
-    )
-    resp.raise_for_status()
+    resp = _request("PATCH", f"/services/data/{API_VERSION}/sobjects/{sobject}/{record_id}",
+                     target_org, json=fields)
     return resp.status_code == 204
 
 

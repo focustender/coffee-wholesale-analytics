@@ -58,17 +58,31 @@ def _get_access_token():
     return _token_cache["access_token"]
 
 
+def _is_throttled(body):
+    """Shopify's GraphQL Admin API signals rate-limiting as a normal HTTP 200
+    with a THROTTLED error code inside the response body (cost-based leaky
+    bucket, not a 429) -- checked here explicitly rather than a status-code
+    check, which would never catch it."""
+    return any(e.get("extensions", {}).get("code") == "THROTTLED" for e in body.get("errors", []))
+
+
 def graphql(query, variables=None):
     domain, _, _ = _config()
     token = _get_access_token()
     url = f"https://{domain}/admin/api/{API_VERSION}/graphql.json"
-    resp = requests.post(
-        url,
-        json={"query": query, "variables": variables or {}},
-        headers={"X-Shopify-Access-Token": token, "Content-Type": "application/json"},
-    )
+    headers = {"X-Shopify-Access-Token": token, "Content-Type": "application/json"}
+    payload = {"query": query, "variables": variables or {}}
+
+    resp = requests.post(url, json=payload, headers=headers)
     resp.raise_for_status()
     body = resp.json()
+
+    if _is_throttled(body):
+        time.sleep(1)
+        resp = requests.post(url, json=payload, headers=headers)
+        resp.raise_for_status()
+        body = resp.json()
+
     if "errors" in body:
         raise RuntimeError(body["errors"])
     return body["data"]

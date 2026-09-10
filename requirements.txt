@@ -1,0 +1,9 @@
+# Runtime dependencies for integrations/, analysis/, and generate_charts.py.
+# data/generate_dataset.py and data/validate_dataset.py are stdlib-only and
+# need none of this. Pinned to what was actually verified working.
+requests==2.34.2
+pandas==3.0.5
+matplotlib==3.11.1
+
+# Test suite (tests/)
+pytest==9.1.1
